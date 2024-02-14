@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="RYS7kZI0B0uxLqw_eiD0pQ" Reference="Ymb0GQZvuEKudTYaVyKksQ/xP9z3BMiVEaXHwd78Qszsw" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="https://qa2.velocitypayment.com/admin/imtiaz" ContentHash="iG1_MvXEskOcGo5lSNsaAg" CvElementArea="1009, 552, 319, 43" CvType="InputBox" DesignTimeRectangle="1012, 555, 312, 38" DesignTimeScaleFactor="1" ElementType="InputBoxPassword" FriendlyName="'INPUT okta-signin-passw…'" FullSelectorArgument="&lt;webctrl id='okta-signin-password' tag='INPUT' /&gt;" FuzzySelectorArgument="&lt;webctrl id='okta-signin-password' tag='INPUT' type='password' class='' aaname='Password ' /&gt;" Guid="c68b21f9-b1af-4cd6-bab8-1b3d0950a000" ImageBase64="" Reference="Ymb0GQZvuEKudTYaVyKksQ/xP9z3BMiVEaXHwd78Qszsw" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Login page' /&gt;" SearchSteps="Selector, FuzzySelector, CV" Version="V2" Visibility="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="1">
+          <Target CvTextArea="1010, 532, 68, 13" CvTextArgument="Password" CvType="Text" DesignTimeRectangle="1011, 531, 70, 16" ElementType="Text" FriendlyName="'Password'" FullSelectorArgument="&lt;webctrl aaname='Password ' tag='LABEL' /&gt;" FuzzySelectorArgument="&lt;webctrl aaname='Password ' tag='LABEL' type='' class='' check:innerText='Password' /&gt;" SearchSteps="FuzzySelector, CV" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="9bb3767852848c2a8b479e3d7234ce41.png" xmlns="">0HwQW3HWWJkWbfxutJexFng</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">TypeInto</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="6gHX2wj7dE6XzXCurJpsiw" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="https://qa2.velocitypayment.com/admin/imtiaz" CvElementArea="1009, 477, 318, 44" CvType="InputBox" DesignTimeRectangle="1012, 480, 312, 38" DesignTimeScaleFactor="1" ElementType="InputBox" FriendlyName="'INPUT okta-signin-usern…'" FullSelectorArgument="&lt;webctrl id='okta-signin-username' tag='INPUT' /&gt;" FuzzySelectorArgument="&lt;webctrl id='okta-signin-username' tag='INPUT' type='text' class='' aaname='Username ' /&gt;" Guid="5eb053ba-76db-4c0f-9aa5-1c581e57d581" IsResponsive="True" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Login page' /&gt;" SearchSteps="FuzzySelector, CV" Version="V2" Visibility="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target CvTextArea="1010, 457, 73, 13" CvTextArgument="Username" CvType="Text" DesignTimeRectangle="1011, 456, 75, 16" ElementType="Text" FriendlyName="'Username'" FullSelectorArgument="&lt;webctrl tag='LABEL' /&gt;" FuzzySelectorArgument="&lt;webctrl tag='LABEL' type='' class='' aaname='Username ' check:innerText='Username' /&gt;" SearchSteps="FuzzySelector, CV" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="c8aa5ed2017ce471955f32e83278d109.png" xmlns="">0cKf4T8f8fkWZP1sWixDwzQ</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">TypeInto</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

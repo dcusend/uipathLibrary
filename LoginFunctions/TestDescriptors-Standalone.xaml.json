@@ -1,0 +1,33 @@
+{
+  "DisplayName": null,
+  "Tooltip": null,
+  "HelpLink": null,
+  "Color": null,
+  "OriginalIconFileName": null,
+  "Arguments": [
+    {
+      "Name": "inURL",
+      "DisplayName": "inURL",
+      "Category": null,
+      "Tooltip": null,
+      "Placeholder": "https://qa2.velocitypayment.com/admin/imtiaz",
+      "Widget": null,
+      "IsRequired": false,
+      "IsPrincipal": true,
+      "ArgumentType": 0,
+      "DataSourceItems": null
+    },
+    {
+      "Name": "inBrowserName",
+      "DisplayName": "inBrowserName",
+      "Category": null,
+      "Tooltip": null,
+      "Placeholder": "msedge",
+      "Widget": null,
+      "IsRequired": false,
+      "IsPrincipal": true,
+      "ArgumentType": 0,
+      "DataSourceItems": null
+    }
+  ]
+}

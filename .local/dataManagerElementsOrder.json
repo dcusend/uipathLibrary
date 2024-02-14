@@ -1,0 +1,92 @@
+{
+  "Workflows": [
+    {
+      "Path": null,
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [],
+      "ArgumentsSectionElementsOrder": null,
+      "ConstantsSectionElementsOrder": null,
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "LoginFunctions/HelloWorldMsgBox.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [],
+      "ArgumentsSectionElementsOrder": [
+        "EnterMessage"
+      ],
+      "ConstantsSectionElementsOrder": null,
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "LoginFunctions/GoodMorningMsgBox.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [],
+      "ArgumentsSectionElementsOrder": [],
+      "ConstantsSectionElementsOrder": null,
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "LoginFunctions/Login-AdminSuite-Library.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [
+        "AdminSuiteLoginBrowser&Sequence_1"
+      ],
+      "ArgumentsSectionElementsOrder": [
+        "BrowserType",
+        "AdminSuitePassword",
+        "AdminSuiteUsername",
+        "AdminSuiteURL"
+      ],
+      "ConstantsSectionElementsOrder": null,
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "LoginFunctions/Setup-AdminSuite-Library.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [
+        "DesiredEnvironmentType&Sequence_1",
+        "DesiredBrowserType&Sequence_1",
+        "asPassword&Sequence_1",
+        "asUsername&Sequence_1",
+        "asURL&Sequence_1"
+      ],
+      "ArgumentsSectionElementsOrder": [
+        "outASUsername",
+        "outASPassword",
+        "outDesiredURL",
+        "outDesiredBrowserType",
+        "Environment",
+        "DesiredBrowser"
+      ],
+      "ConstantsSectionElementsOrder": null,
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "LoginFunctions/Test-OR-Library.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [],
+      "ArgumentsSectionElementsOrder": [
+        "BrowserType",
+        "url",
+        "password",
+        "username"
+      ],
+      "ConstantsSectionElementsOrder": null,
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "LoginFunctions/TestDescriptors.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [],
+      "ArgumentsSectionElementsOrder": [
+        "inPassword",
+        "inUsername",
+        "inBrowserType",
+        "inURL"
+      ],
+      "ConstantsSectionElementsOrder": null,
+      "AddedNamespaces": null
+    }
+  ]
+}

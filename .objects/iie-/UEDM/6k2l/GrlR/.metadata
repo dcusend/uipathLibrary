@@ -1,0 +1,16 @@
+﻿{
+  "Name": "PasswordStandalone",
+  "Type": "Element",
+  "TaxonomyType": "Input",
+  "Id": "GrlRLeFVck6yFjba91ivjw",
+  "Reference": "Ymb0GQZvuEKudTYaVyKksQ/GrlRLeFVck6yFjba91ivjw",
+  "ParentRef": "Ymb0GQZvuEKudTYaVyKksQ/6k2ljT-Az0ugGTLqywORkw",
+  "Created": "2024-02-14T00:44:17.576719Z",
+  "Updated": "2024-02-14T00:56:30.9645967Z",
+  "CreatedBy": [
+    "UiPath.Platform, Version=23.10.0.0, Culture=neutral, PublicKeyToken=null"
+  ],
+  "UpdatedBy": [
+    "UiPath.Platform, Version=23.10.0.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

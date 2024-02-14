@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryScreenData ContentHash="7Ey7DFnE-kysMp2L53hAzg" Reference="Ymb0GQZvuEKudTYaVyKksQ/IKsB5Kn4p0Ss7a_RgWMQtw" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryScreenData.Data>
+    <TargetApp x:Key="TargetApp" Area="0, 0, 0, 0" Arguments="[inBrowserType]" BrowserType="Chrome" ContentHash="LJqWEO2JHkmHLrmHXpB53w" IconBase64="iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAMAAAAoLQ9TAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAwUExURSMjkefn80REocTE4pqazGBgr3NzuS0tli8vlzIymSoqlDIymCsrlTExmDMzmf///8d3SwgAAAAJcEhZcwAADsMAAA7DAcdvqGQAAACdSURBVChTHY5JEkRBBAXNpXzD/W/bqm2QEY+E2ULRJhJ88wNCJ+s70A8tkDhdEZ4AhgsEvj5tjKwOtoBOJ/GwyI7OINGHEA02QBUGGjd4DDICqp2A6tDwcVXTr29DV9oebp7heEAzHrhHRuNFBFIH1xSxq1NhW8naI27uJv/FktTIo/svtgrla159QZ/6jHn493nk7n8wbERNup9nflD7CDoRRsw8AAAAAElFTkSuQmCC" Reference="Ymb0GQZvuEKudTYaVyKksQ/IKsB5Kn4p0Ss7a_RgWMQtw" Selector="[string.Format(&quot;&lt;html app='{0}.exe' title='Login page' /&gt;&quot;, inBrowserType)]" Title="Login page" Url="[inURL]">
+      <imageRef attrName="InformativeScreenshot" originalValue="8363fef4d622117871f4828ae55d626f.jpg" xmlns="">0Cbl3le7xzU6-6fYwdSkBog</imageRef>
+    </TargetApp>
+    <scg:List x:TypeArguments="ObjectRepositoryVariableData" x:Key="Variables" Capacity="2">
+      <ObjectRepositoryVariableData DefaultValue="chrome" Name="inBrowserType" />
+      <ObjectRepositoryVariableData IsVariable="False" Name="inURL" />
+    </scg:List>
+  </ObjectRepositoryScreenData.Data>
+</ObjectRepositoryScreenData>

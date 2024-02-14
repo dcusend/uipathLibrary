@@ -1,0 +1,11 @@
+﻿{
+  "Name": "ASLoginStandalone",
+  "Type": "App",
+  "Id": "iie-r1nQ4Em8MUecL7ELGQ",
+  "Reference": "Ymb0GQZvuEKudTYaVyKksQ/iie-r1nQ4Em8MUecL7ELGQ",
+  "Created": "2024-02-14T00:42:01.1031529Z",
+  "Updated": "2024-02-14T00:42:01.1031529Z",
+  "CreatedBy": [
+    "UiPath.Platform, Version=23.10.0.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

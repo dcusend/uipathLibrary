@@ -1,0 +1,148 @@
+<Activity mc:Ignorable="sap sap2010" x:Class="TestDescriptors_Standalone" this:TestDescriptors_Standalone.inURL="https://qa2.velocitypayment.com/admin/imtiaz" this:TestDescriptors_Standalone.inBrowserName="msedge" xmlns="http://schemas.microsoft.com/netfx/2009/xaml/activities" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" xmlns:sap="http://schemas.microsoft.com/netfx/2009/xaml/activities/presentation" xmlns:sap2010="http://schemas.microsoft.com/netfx/2010/xaml/activities/presentation" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:sco="clr-namespace:System.Collections.ObjectModel;assembly=System.Private.CoreLib" xmlns:this="clr-namespace:" xmlns:uix="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <x:Members>
+    <x:Property Name="inURL" Type="InArgument(x:String)" />
+    <x:Property Name="inBrowserName" Type="InArgument(x:String)" />
+  </x:Members>
+  <VisualBasic.Settings>
+    <x:Null />
+  </VisualBasic.Settings>
+  <sap2010:Annotation.AnnotationText>UPTF00000088eyI8SGVscExpbms+a19fQmFja2luZ0ZpZWxkIjpudWxsLCI8SW5pdGlhbFRvb2x0aXA+a19fQmFja2luZ0ZpZWxkIjpudWxsLCI8VmVyc2lvbj5rX19CYWNraW5nRmllbGQiOjF9</sap2010:Annotation.AnnotationText>
+  <sap:VirtualizedContainerService.HintSize>900,1179</sap:VirtualizedContainerService.HintSize>
+  <sap2010:WorkflowViewState.IdRef>TestDescriptors_Standalone_1</sap2010:WorkflowViewState.IdRef>
+  <TextExpression.NamespacesForImplementation>
+    <sco:Collection x:TypeArguments="x:String">
+      <x:String>System.Activities</x:String>
+      <x:String>System.Activities.Statements</x:String>
+      <x:String>System.Activities.Expressions</x:String>
+      <x:String>System.Activities.Validation</x:String>
+      <x:String>System.Activities.XamlIntegration</x:String>
+      <x:String>Microsoft.VisualBasic</x:String>
+      <x:String>Microsoft.VisualBasic.Activities</x:String>
+      <x:String>System</x:String>
+      <x:String>System.Collections</x:String>
+      <x:String>System.Collections.Generic</x:String>
+      <x:String>System.Collections.ObjectModel</x:String>
+      <x:String>System.Data</x:String>
+      <x:String>System.Diagnostics</x:String>
+      <x:String>System.Drawing</x:String>
+      <x:String>System.IO</x:String>
+      <x:String>System.Linq</x:String>
+      <x:String>System.Net.Mail</x:String>
+      <x:String>System.Xml</x:String>
+      <x:String>System.Xml.Linq</x:String>
+      <x:String>UiPath.Core</x:String>
+      <x:String>UiPath.Core.Activities</x:String>
+      <x:String>System.Windows.Markup</x:String>
+      <x:String>System.Reflection</x:String>
+      <x:String>System.Security</x:String>
+      <x:String>UiPath.UIAutomationNext.Enums</x:String>
+      <x:String>UiPath.UIAutomationNext.Contracts</x:String>
+      <x:String>System.Runtime.Serialization</x:String>
+      <x:String>UiPath.UIAutomationNext.Models.CV</x:String>
+      <x:String>UiPath.UIAutomationCore.Contracts</x:String>
+      <x:String>UiPath.UIAutomationNext.Activities</x:String>
+      <x:String>UiPath.Shared.Activities</x:String>
+      <x:String>UiPath.Platform.ObjectLibrary</x:String>
+      <x:String>System.ComponentModel</x:String>
+    </sco:Collection>
+  </TextExpression.NamespacesForImplementation>
+  <TextExpression.ReferencesForImplementation>
+    <sco:Collection x:TypeArguments="AssemblyReference">
+      <AssemblyReference>Microsoft.VisualBasic</AssemblyReference>
+      <AssemblyReference>mscorlib</AssemblyReference>
+      <AssemblyReference>System</AssemblyReference>
+      <AssemblyReference>System.Activities</AssemblyReference>
+      <AssemblyReference>System.ComponentModel.TypeConverter</AssemblyReference>
+      <AssemblyReference>System.Core</AssemblyReference>
+      <AssemblyReference>System.Data</AssemblyReference>
+      <AssemblyReference>System.Data.Common</AssemblyReference>
+      <AssemblyReference>System.Data.DataSetExtensions</AssemblyReference>
+      <AssemblyReference>System.Drawing</AssemblyReference>
+      <AssemblyReference>System.Drawing.Common</AssemblyReference>
+      <AssemblyReference>System.Drawing.Primitives</AssemblyReference>
+      <AssemblyReference>System.Linq</AssemblyReference>
+      <AssemblyReference>System.Net.Mail</AssemblyReference>
+      <AssemblyReference>System.ObjectModel</AssemblyReference>
+      <AssemblyReference>System.Private.CoreLib</AssemblyReference>
+      <AssemblyReference>System.Xaml</AssemblyReference>
+      <AssemblyReference>System.Xml</AssemblyReference>
+      <AssemblyReference>System.Xml.Linq</AssemblyReference>
+      <AssemblyReference>UiPath.System.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.UiAutomation.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Studio.Constants</AssemblyReference>
+      <AssemblyReference>System.Reflection.DispatchProxy</AssemblyReference>
+      <AssemblyReference>System.Reflection.TypeExtensions</AssemblyReference>
+      <AssemblyReference>System.Reflection.Metadata</AssemblyReference>
+      <AssemblyReference>System.Security.Permissions</AssemblyReference>
+      <AssemblyReference>System.Runtime.InteropServices</AssemblyReference>
+      <AssemblyReference>UiPath.UIAutomationNext</AssemblyReference>
+      <AssemblyReference>System.Private.ServiceModel</AssemblyReference>
+      <AssemblyReference>System.Runtime.Serialization.Formatters</AssemblyReference>
+      <AssemblyReference>System.Private.DataContractSerialization</AssemblyReference>
+      <AssemblyReference>System.Runtime.Serialization.Primitives</AssemblyReference>
+      <AssemblyReference>UiPath.UIAutomationCore</AssemblyReference>
+      <AssemblyReference>UiPath.UIAutomationNext.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.OCR.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Platform</AssemblyReference>
+      <AssemblyReference>System.ComponentModel.EventBasedAsync</AssemblyReference>
+      <AssemblyReference>PresentationFramework</AssemblyReference>
+      <AssemblyReference>WindowsBase</AssemblyReference>
+      <AssemblyReference>Microsoft.Win32.Primitives</AssemblyReference>
+      <AssemblyReference>System.ComponentModel</AssemblyReference>
+      <AssemblyReference>System.ComponentModel.Primitives</AssemblyReference>
+    </sco:Collection>
+  </TextExpression.ReferencesForImplementation>
+  <Sequence DisplayName="TestDescriptors_Standalone" sap:VirtualizedContainerService.HintSize="546,1114" sap2010:WorkflowViewState.IdRef="Sequence_1">
+    <sap:WorkflowViewStateService.ViewState>
+      <scg:Dictionary x:TypeArguments="x:String, x:Object">
+        <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+      </scg:Dictionary>
+    </sap:WorkflowViewStateService.ViewState>
+    <uix:NApplicationCard AttachMode="ByInstance" DisplayName="Chrome: Login page" sap:VirtualizedContainerService.HintSize="484,1003" sap2010:WorkflowViewState.IdRef="NApplicationCard_2" ScopeGuid="ac9062e4-0989-4f0c-9476-8b7d9230f553" Version="V2">
+      <uix:NApplicationCard.Body>
+        <ActivityAction x:TypeArguments="x:Object">
+          <ActivityAction.Argument>
+            <DelegateInArgument x:TypeArguments="x:Object" Name="WSSessionData" />
+          </ActivityAction.Argument>
+          <Sequence DisplayName="Do" sap:VirtualizedContainerService.HintSize="450,786" sap2010:WorkflowViewState.IdRef="Sequence_3">
+            <sap:WorkflowViewStateService.ViewState>
+              <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+              </scg:Dictionary>
+            </sap:WorkflowViewStateService.ViewState>
+            <uix:NTypeInto ActivateBefore="True" ClickBeforeMode="Single" DisplayName="Type Into 'UsernameStandalone'" EmptyFieldMode="SingleLine" sap:VirtualizedContainerService.HintSize="388,218" sap2010:WorkflowViewState.IdRef="NTypeInto_1" Text="iahmed" Version="V3">
+              <uix:NTypeInto.Target>
+                <uix:TargetAnchorable BrowserURL="https://qa2.velocitypayment.com/admin/imtiaz" ContentHash="D2TZeGHhwUOj32wEas_0Gw" CvElementArea="1009, 488, 318, 43" CvType="InputBox" DesignTimeRectangle="1012, 490, 312, 38" DesignTimeScaleFactor="1" ElementType="InputBox" FriendlyName="'INPUT okta-signin-usern…'" FullSelectorArgument="&lt;webctrl id='okta-signin-username' tag='INPUT' /&gt;" FuzzySelectorArgument="&lt;webctrl id='okta-signin-username' tag='INPUT' type='text' class='' aaname='Username ' /&gt;" Guid="7361db26-cd02-41a1-8e4d-4d43e4de425e" ImageBase64="iVBORw0KGgoAAAANSUhEUgAAATwAAAAqCAYAAAAu/ec0AAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAEFSURBVHhe7dbBiQQxEATB89+lBXkhZMu8tJRgFs4FVQTUpw1I+m8DlPgFb621xxj78/mYmV2xNC1te53g5TDn3M/znCPADdK0tO2N3gleKih2wI3StjQuTvDy+gHc6m2c4AHXEzyghuABNQQPqCF4QA3BA2oIHlBD8IAaggfUEDyghuABNQQPqCF4QA3BA2oIHlBD8IAaggfUEDyghuABNQQPqCF4QA3BA2oIHlBD8IAaggfUEDyghuABNQQPqCF4QA3BA2oIHlBD8IAaggfU+Be8McZ+nuccAG6StqVxcYK31tpzTtEDrpKmpW1pXJzgRQ6pYF4/M7Mblqa9sYtf8ADutvcXX2dvJU1Hui4AAAAASUVORK5CYII=" InformativeScreenshot="726603856da1f0777eb9abe2c6448d13.png" IsResponsive="True" Reference="Ymb0GQZvuEKudTYaVyKksQ/wJBTW8hqD0OqUFP4NjkH_w" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Login page' /&gt;" SearchSteps="FuzzySelector, CV" Version="V2" Visibility="Interactive">
+                  <uix:TargetAnchorable.Anchors>
+                    <scg:List x:TypeArguments="uix:ITarget" Capacity="1">
+                      <uix:Target CvTextArea="1010, 467, 73, 13" CvTextArgument="Username" CvType="Text" DesignTimeRectangle="1011, 466, 75, 16" ElementType="Text" FriendlyName="'Username'" FullSelectorArgument="&lt;webctrl tag='LABEL' /&gt;" FuzzySelectorArgument="&lt;webctrl tag='LABEL' type='' class='' aaname='Username ' check:innerText='Username' /&gt;" ImageBase64="iVBORw0KGgoAAAANSUhEUgAAAE8AAAAUCAYAAADMfWCyAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAOWSURBVFhH7VXfS9tQFN5fmpeAFEpBLGKRhWEQJmMyFDEPUpGOURkdrAhFGoQikiIdEhkRRopERkRahFAIQil8Oyf3tk1jJ67ZYz64cHPuuefHl3POfYMMCyMjLwUy8lIgIy8FMvJSIEZegNZeEcW9Fu2ScFFbpbOvrvzOwIiR14O5oUDZMGmXhIOKQmdHjvzOwFicvGEPbttE7aQF+8ZDMJJyxmiIXteG1bZgX7noDaWcEXgks+Fxefdd2Nc+QpD+jU12ehjG73b5W1yb4MmHS/ej86TfpG3Ssa4c+ANxjFEA74ZkbRvO3fP+inK6EudzfSewGHl9E7qqQC1QK1M753h/YBMFhMcOyisqFDUXnRWW6J6qw3yIbgI/K1DI1u5RBQW2GfmTvt+WUdmkuyyXS92xJmMkuNiGyrLIbyHaK8sVOKFUSNoeL/Z/Szksx2SKiuK36RgKLssoch75qW11k2J7gcCFyOs1dXJuwB4bHlH6j7wJYH2k5OMJ0d9ufSLZBzlLZYLK0hYa3TEt0jclpH93RTUNfTQiIouo/xZaXFnuQ6yMb2sokS39TNoZ2142YPWFKLgSRKoq2T71RTUNHFTX2Z+BzhMrWdgm4gqU3zhsPLYi2db5nAqVWKzyulUR0Mo2aucufA6AMaAgSK6deAgH4WQFFwYFSoSyjkxwNijpe7UOX0oiSN3KT/lNCO6cqDXFqmOLzvWmjFjqG5fxOeGjvvo8L1EAVJFEckgVrSga6rfTmMMBFcJ+LOc5eB15Tx0YFFTuOFbm13UY72XrUMVsndEtbmf6FqWfXGV0ePbMIeSvvmd0QzhHhck4EEv4T5I313aChDh5Yq8itxKPV66DzrQaE4iRR/V1xG2iozGeTxJi1qgwfsg/Gp8D3F4cXL4Kd0QVSqWeo0Dj/35Gf1Hy5A/UTmMaUpaWPL6nKjm6NxP1bNxzMEMeHsRDoCxpKDf5pbRgHmrPhqd7XIL2pQX3nsqbXrUaB7feiFqOg2Kitc8WvH4Iv9tC9V0Ju+1XJPhi5bmo5jmOOlyyG947aOxQJf4P8mhmmzxfVQ2VtofegF708yq0td3J7JyHWfIYfRvVSTvSojbRDy34sb8Q3pow1nMTHXWNBvSkWkN4TQMlfmXl/dK+CS/xIv47eWT5Vw16nruDdJdKMJo17NI+NXmM0IO5X5rmlGf7NLvl8Tw8Jy/Dq5GRlwIZeSmQkZcCGXkLA/gDnz/yaSZqBT0AAAAASUVORK5CYII=" SearchSteps="FuzzySelector, CV" />
+                    </scg:List>
+                  </uix:TargetAnchorable.Anchors>
+                </uix:TargetAnchorable>
+              </uix:NTypeInto.Target>
+            </uix:NTypeInto>
+            <uix:NTypeInto ActivateBefore="True" ClickBeforeMode="Single" DisplayName="Type Into 'PasswordStandalone'" EmptyFieldMode="SingleLine" sap:VirtualizedContainerService.HintSize="388,218" sap2010:WorkflowViewState.IdRef="NTypeInto_2" Text="Hello!4444444" Version="V3">
+              <uix:NTypeInto.Target>
+                <uix:TargetAnchorable BrowserURL="https://qa2.velocitypayment.com/admin/imtiaz" ContentHash="LRHmgX_iHEyxCDRlhVKnhg" CvElementArea="1009, 562, 319, 43" CvType="InputBox" DesignTimeRectangle="1012, 565, 312, 38" DesignTimeScaleFactor="1" ElementType="InputBoxPassword" FriendlyName="'INPUT okta-signin-passw…'" FullSelectorArgument="&lt;webctrl id='okta-signin-password' tag='INPUT' /&gt;" FuzzySelectorArgument="&lt;webctrl id='okta-signin-password' tag='INPUT' class='' aaname='Password ' /&gt;" Guid="e16a6c15-c7df-42b2-b926-eccb68f0f51c" ImageBase64="iVBORw0KGgoAAAANSUhEUgAAATwAAAAqCAYAAAAu/ec0AAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAEFSURBVHhe7dbBiQQxEATB89+lBXkhZMu8tJRgFs4FVQTUpw1I+m8DlPgFb621xxj78/mYmV2xNC1te53g5TDn3M/znCPADdK0tO2N3gleKih2wI3StjQuTvDy+gHc6m2c4AHXEzyghuABNQQPqCF4QA3BA2oIHlBD8IAaggfUEDyghuABNQQPqCF4QA3BA2oIHlBD8IAaggfUEDyghuABNQQPqCF4QA3BA2oIHlBD8IAaggfUEDyghuABNQQPqCF4QA3BA2oIHlBD8IAaggfU+Be8McZ+nuccAG6StqVxcYK31tpzTtEDrpKmpW1pXJzgRQ6pYF4/M7Mblqa9sYtf8ADutvcXX2dvJU1Hui4AAAAASUVORK5CYII=" InformativeScreenshot="d166f1d77a3498cca3a1fa61f02e00d8.png" Reference="Ymb0GQZvuEKudTYaVyKksQ/GrlRLeFVck6yFjba91ivjw" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Login page' /&gt;" SearchSteps="Selector, FuzzySelector" Version="V2" Visibility="Interactive">
+                  <uix:TargetAnchorable.Anchors>
+                    <scg:List x:TypeArguments="uix:ITarget" Capacity="1">
+                      <uix:Target CvTextArea="1010, 541, 68, 14" CvTextArgument="Password" CvType="Text" DesignTimeRectangle="1011, 541, 70, 16" ElementType="Text" FriendlyName="'Password'" FullSelectorArgument="&lt;webctrl aaname='Password ' tag='LABEL' /&gt;" FuzzySelectorArgument="&lt;webctrl aaname='Password ' tag='LABEL' type='' class='' check:innerText='Password' /&gt;" ImageBase64="iVBORw0KGgoAAAANSUhEUgAAAEoAAAAUCAYAAAAqVKv2AAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAQMSURBVFhH7VZRa9tIEL5fqhdBMRhBqCkx4fxQUzhTYo7Lg0U5cgQb41BcqCnxQ8SBCEEhuAQdxYUiE1yKgnEoiIAomMB336xWspSk4Nz1qegLQtbs7O7st9/M5BeU2AglURuiJGpDlERtiJIohQjzCx/+50h/30eBqOB1DbVnxafVGcH7EmuPnxVTdA0DxsFUf99HgajpAZ2NOtq9Lrp89n9voFY1aTPR/HupvX5G/CeiupyWw+0S4+e0VwcItAkrSvWjD+/Mg38RYLnS9hSrJYIzB8N3LvyPc0S32k5En6dw3w3hnPkIFpwovpT99Kqo2uiSqXBRnItoTpuPeZohaq7HOOh7Z59COvEMskd4o4fUt4vRawfeTATwI4gilsfNzL6aDVE3DZjVJDUr/G2YTTiLxBfXDpoybq3HzT99rPg37Vn0rSRpbYlSGxgvIrgvucZzB5lmbxm4rGtUMJhpGxEe1WmzMflGGs73UVM+Jiy1Fn9v7cFL40gP/wezY0v8GOM1zQsHrSfyncQo8VkdG63/T1SMSYeBmNrO25jPckXvxoMtZPSSWQmpNvz0dum//Co/ksDrR6EyC+LFkqvzfdrmnBbcdNkPXZiGBYsHrBymOg4x3uE+ryYUtIe27PlijDDd55pxCCE7tCmDJopEto4CrbZkDbnY8ZVyYnwx/ANe4OOJamEkkpWH6TPYrTFosp4FTFUtgmRcPS72n+U2mQ1g0d982sbwJEDI208QwdtN6l3jL0elxCo95LeJIrt1kjAV9CswXrqYioLSlL8ao8653Q8psTWMvij3DNFJi3ZRqXxporhOdq1fqXbaam/Xl6XAy24/nqjiY1brsI/niPWhRDGmyF13xSz9cptE/4xg/2YpgtWNpo0gnsPtt1FXDULIpEpVaVph8oo2OdRtgEHVQPuUA5LGmhClVCGNcSSq1amUB5W4TldNVP7waj0DzeO7jekB3zvYqEatEWIk6mHNWUPb0k1SlQhWlHq+EeTGovf7qDA4RYjg04DfTL9zebfhqcK7hMP5tbcT9a70tapVapqwz4sNQCkxm/vA4XXtMzsTlfIZLoeo/ViiYqYPfbZseOxS8fUcXq+RKEdvEhzW0ei7CNR4gKEQJXWDdWVvew9jdrLlTYzw1CYhPOx73TK1kipVHnbXyw6i1GOa3COXaqx7zgupmw10Jb2vAio1iWNdIh5WSXAo9Yjp35MYQ3bnMfaeyvr3ffN4JFHEgkVzO0kd6WDN/hjdX9ebxJcO7J1KsjEfc5ukSs3g4fx+C5buOGrum6Bws8GhKMKgUnL/b0Ru0pGyIq3BNHY69STtZfxJsUR8jygp3tM3zWyeWW1i+Ml7XOqV+D5KojZESdSGKInaECVRGwH4F0oiY9IzSlVlAAAAAElFTkSuQmCC" SearchSteps="FuzzySelector, CV" />
+                    </scg:List>
+                  </uix:TargetAnchorable.Anchors>
+                </uix:TargetAnchorable>
+              </uix:NTypeInto.Target>
+            </uix:NTypeInto>
+            <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'Sign In Standalone'" sap:VirtualizedContainerService.HintSize="388,157" sap2010:WorkflowViewState.IdRef="NClick_1" KeyModifiers="None" MouseButton="Left" Version="V3">
+              <uix:NClick.Target>
+                <uix:TargetAnchorable BrowserURL="https://qa2.velocitypayment.com/admin/imtiaz" ContentHash="UYOpBUe7jUuCIxcfh-QTCw" CvElementArea="1009, 675, 316, 54" CvTextArea="1142, 694, 50, 17" CvTextArgument="Sign In" CvType="Button" DesignTimeRectangle="1011, 677, 314, 50" DesignTimeScaleFactor="1" ElementType="Button" FriendlyName="'Sign In'" FullSelectorArgument="&lt;webctrl id='okta-signin-submit' tag='INPUT' /&gt;" FuzzySelectorArgument="&lt;webctrl id='okta-signin-submit' tag='INPUT' type='submit' class='button button-primary' aaname='Sign In' check:text='Sign In' /&gt;" Guid="2155cbbf-7dea-46b2-90fc-69e507760616" ImageBase64="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" InformativeScreenshot="683c93bd20c708cb0ccb48ef36598996.png" Reference="Ymb0GQZvuEKudTYaVyKksQ/UE6FBXN7PEy5jWWL7gLIiQ" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Login page' /&gt;" SearchSteps="FuzzySelector, CV" Version="V2" Visibility="Interactive" />
+              </uix:NClick.Target>
+            </uix:NClick>
+          </Sequence>
+        </ActivityAction>
+      </uix:NApplicationCard.Body>
+      <uix:NApplicationCard.TargetApp>
+        <uix:TargetApp Area="0, 0, 0, 0" BrowserType="Chrome" ContentHash="fpE2cb3qGUW3GR7ZN70Oew" IconBase64="iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAMAAAAoLQ9TAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAwUExURSMjkefn80REocTE4pqazGBgr3NzuS0tli8vlzIymSoqlDIymCsrlTExmDMzmf///8d3SwgAAAAJcEhZcwAADsMAAA7DAcdvqGQAAACdSURBVChTHY5JEkRBBAXNpXzD/W/bqm2QEY+E2ULRJhJ88wNCJ+s70A8tkDhdEZ4AhgsEvj5tjKwOtoBOJ/GwyI7OINGHEA02QBUGGjd4DDICqp2A6tDwcVXTr29DV9oebp7heEAzHrhHRuNFBFIH1xSxq1NhW8naI27uJv/FktTIo/svtgrla159QZ/6jHn493nk7n8wbERNup9nflD7CDoRRsw8AAAAAElFTkSuQmCC" InformativeScreenshot="604b4921adcf2069e62db581fa6ad96d.jpg" Reference="Ymb0GQZvuEKudTYaVyKksQ/6k2ljT-Az0ugGTLqywORkw" Selector="[string.Format(&quot;&lt;html app='{0}.exe' title='Login page' /&gt;&quot;, inBrowserName)]" Title="Login page" Url="[inURL]" />
+      </uix:NApplicationCard.TargetApp>
+    </uix:NApplicationCard>
+  </Sequence>
+</Activity>
