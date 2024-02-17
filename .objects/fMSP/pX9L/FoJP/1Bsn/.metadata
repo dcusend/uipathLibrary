@@ -1,0 +1,13 @@
+﻿{
+  "Name": "Cardholder Name",
+  "Type": "Element",
+  "TaxonomyType": "Input",
+  "Id": "1BsnVrmJEkCvCBL8D204HQ",
+  "Reference": "Ymb0GQZvuEKudTYaVyKksQ/1BsnVrmJEkCvCBL8D204HQ",
+  "ParentRef": "Ymb0GQZvuEKudTYaVyKksQ/FoJPYThfW0eMKf_cKGlzHA",
+  "Created": "2024-02-17T22:22:13.8148896Z",
+  "Updated": "2024-02-17T22:22:13.8148896Z",
+  "CreatedBy": [
+    "UiPath.Platform, Version=23.10.0.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

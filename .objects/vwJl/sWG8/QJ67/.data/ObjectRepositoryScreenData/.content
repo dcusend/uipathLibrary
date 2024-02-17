@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryScreenData ContentHash="wwrNp0yQuk6aMORFRwaVDg" Reference="Ymb0GQZvuEKudTYaVyKksQ/QJ67qpju0ESUv46i9naF_Q" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryScreenData.Data>
+    <TargetApp x:Key="TargetApp" Area="0, 0, 0, 0" Arguments="[inBrowserType]" BrowserType="Chrome" ContentHash="U5Tne8VYcEOnn7ltY-BxWw" IconBase64="iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAMAAAAoLQ9TAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAwUExURSMjkefn80REocTE4pqazGBgr3NzuS0tli8vlzIymSoqlDIymCsrlTExmDMzmf///8d3SwgAAAAJcEhZcwAADsMAAA7DAcdvqGQAAACdSURBVChTHY5JEkRBBAXNpXzD/W/bqm2QEY+E2ULRJhJ88wNCJ+s70A8tkDhdEZ4AhgsEvj5tjKwOtoBOJ/GwyI7OINGHEA02QBUGGjd4DDICqp2A6tDwcVXTr29DV9oebp7heEAzHrhHRuNFBFIH1xSxq1NhW8naI27uJv/FktTIo/svtgrla159QZ/6jHn493nk7n8wbERNup9nflD7CDoRRsw8AAAAAElFTkSuQmCC" Reference="Ymb0GQZvuEKudTYaVyKksQ/QJ67qpju0ESUv46i9naF_Q" Selector="[string.Format(&quot;&lt;html app='{0}.exe' title='Velocity Payment System' /&gt;&quot;, inBrowserType)]" Title="Velocity Payment System">
+      <imageRef attrName="InformativeScreenshot" originalValue="0de7bfdc3188481ca52eae5dc7861bc5.jpg" xmlns="">08uU7U8q8GUSSXqDX02PKfQ</imageRef>
+    </TargetApp>
+    <scg:List x:TypeArguments="ObjectRepositoryVariableData" x:Key="Variables" Capacity="1">
+      <ObjectRepositoryVariableData DefaultValue="chrome" Name="inBrowserType" />
+    </scg:List>
+  </ObjectRepositoryScreenData.Data>
+</ObjectRepositoryScreenData>

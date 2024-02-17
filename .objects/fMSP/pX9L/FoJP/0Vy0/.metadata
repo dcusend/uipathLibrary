@@ -1,0 +1,13 @@
+﻿{
+  "Name": "Text Phone Number",
+  "Type": "Element",
+  "TaxonomyType": "Input",
+  "Id": "0Vy0_MGA-063FHWXH8U9Ig",
+  "Reference": "Ymb0GQZvuEKudTYaVyKksQ/0Vy0_MGA-063FHWXH8U9Ig",
+  "ParentRef": "Ymb0GQZvuEKudTYaVyKksQ/FoJPYThfW0eMKf_cKGlzHA",
+  "Created": "2024-02-17T22:22:15.0018229Z",
+  "Updated": "2024-02-17T22:22:15.0018229Z",
+  "CreatedBy": [
+    "UiPath.Platform, Version=23.10.0.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

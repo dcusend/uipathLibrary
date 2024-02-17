@@ -1,0 +1,12 @@
+﻿{
+  "Name": "Dashboard Screen",
+  "Type": "Screen",
+  "Id": "6pYH26DOhUycxVj4PhfFcw",
+  "Reference": "Ymb0GQZvuEKudTYaVyKksQ/6pYH26DOhUycxVj4PhfFcw",
+  "ParentRef": "Ymb0GQZvuEKudTYaVyKksQ/_V_b_n7iFUi49F2UnJ87_Q",
+  "Created": "2024-02-14T01:57:49.1488726Z",
+  "Updated": "2024-02-14T01:57:49.1488726Z",
+  "CreatedBy": [
+    "UiPath.Platform, Version=23.10.0.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

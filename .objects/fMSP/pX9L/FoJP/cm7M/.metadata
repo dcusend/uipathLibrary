@@ -1,0 +1,16 @@
+﻿{
+  "Name": "UDF10",
+  "Type": "Element",
+  "TaxonomyType": "Input",
+  "Id": "cm7M3EgnyE6iDzWMI-ug-w",
+  "Reference": "Ymb0GQZvuEKudTYaVyKksQ/cm7M3EgnyE6iDzWMI-ug-w",
+  "ParentRef": "Ymb0GQZvuEKudTYaVyKksQ/FoJPYThfW0eMKf_cKGlzHA",
+  "Created": "2024-02-17T22:22:16.1937711Z",
+  "Updated": "2024-02-17T22:33:02.1192706Z",
+  "CreatedBy": [
+    "UiPath.Platform, Version=23.10.0.0, Culture=neutral, PublicKeyToken=null"
+  ],
+  "UpdatedBy": [
+    "UiPath.Platform, Version=23.10.0.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

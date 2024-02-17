@@ -1,0 +1,115 @@
+<Activity mc:Ignorable="sap sap2010" x:Class="SelectSaleLink" xmlns="http://schemas.microsoft.com/netfx/2009/xaml/activities" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" xmlns:sap="http://schemas.microsoft.com/netfx/2009/xaml/activities/presentation" xmlns:sap2010="http://schemas.microsoft.com/netfx/2010/xaml/activities/presentation" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:sco="clr-namespace:System.Collections.ObjectModel;assembly=System.Private.CoreLib" xmlns:uix="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <x:Members>
+    <x:Property Name="inBrowserType" Type="InArgument(x:String)" />
+  </x:Members>
+  <VisualBasic.Settings>
+    <x:Null />
+  </VisualBasic.Settings>
+  <sap2010:Annotation.AnnotationText>UPTF00000088eyI8SGVscExpbms+a19fQmFja2luZ0ZpZWxkIjpudWxsLCI8SW5pdGlhbFRvb2x0aXA+a19fQmFja2luZ0ZpZWxkIjpudWxsLCI8VmVyc2lvbj5rX19CYWNraW5nRmllbGQiOjF9</sap2010:Annotation.AnnotationText>
+  <sap:VirtualizedContainerService.HintSize>900,761</sap:VirtualizedContainerService.HintSize>
+  <sap2010:WorkflowViewState.IdRef>SelectSaleLink_1</sap2010:WorkflowViewState.IdRef>
+  <TextExpression.NamespacesForImplementation>
+    <sco:Collection x:TypeArguments="x:String">
+      <x:String>System.Activities</x:String>
+      <x:String>System.Activities.Statements</x:String>
+      <x:String>System.Activities.Expressions</x:String>
+      <x:String>System.Activities.Validation</x:String>
+      <x:String>System.Activities.XamlIntegration</x:String>
+      <x:String>Microsoft.VisualBasic</x:String>
+      <x:String>Microsoft.VisualBasic.Activities</x:String>
+      <x:String>System</x:String>
+      <x:String>System.Collections</x:String>
+      <x:String>System.Collections.Generic</x:String>
+      <x:String>System.Collections.ObjectModel</x:String>
+      <x:String>System.Data</x:String>
+      <x:String>System.Diagnostics</x:String>
+      <x:String>System.Drawing</x:String>
+      <x:String>System.IO</x:String>
+      <x:String>System.Linq</x:String>
+      <x:String>System.Net.Mail</x:String>
+      <x:String>System.Xml</x:String>
+      <x:String>System.Xml.Linq</x:String>
+      <x:String>UiPath.Core</x:String>
+      <x:String>UiPath.Core.Activities</x:String>
+      <x:String>System.Windows.Markup</x:String>
+      <x:String>System.Runtime.Serialization</x:String>
+      <x:String>UiPath.UIAutomationNext.Enums</x:String>
+      <x:String>UiPath.UIAutomationCore.Contracts</x:String>
+      <x:String>UiPath.UIAutomationNext.Activities</x:String>
+      <x:String>UiPath.Shared.Activities</x:String>
+      <x:String>UiPath.Platform.ObjectLibrary</x:String>
+      <x:String>System.Reflection</x:String>
+      <x:String>UiPath.UIAutomationNext.Contracts</x:String>
+      <x:String>UiPath.UIAutomationNext.Models.CV</x:String>
+    </sco:Collection>
+  </TextExpression.NamespacesForImplementation>
+  <TextExpression.ReferencesForImplementation>
+    <sco:Collection x:TypeArguments="AssemblyReference">
+      <AssemblyReference>Microsoft.VisualBasic</AssemblyReference>
+      <AssemblyReference>mscorlib</AssemblyReference>
+      <AssemblyReference>System</AssemblyReference>
+      <AssemblyReference>System.Activities</AssemblyReference>
+      <AssemblyReference>System.ComponentModel.TypeConverter</AssemblyReference>
+      <AssemblyReference>System.Core</AssemblyReference>
+      <AssemblyReference>System.Data</AssemblyReference>
+      <AssemblyReference>System.Data.Common</AssemblyReference>
+      <AssemblyReference>System.Data.DataSetExtensions</AssemblyReference>
+      <AssemblyReference>System.Drawing</AssemblyReference>
+      <AssemblyReference>System.Drawing.Common</AssemblyReference>
+      <AssemblyReference>System.Drawing.Primitives</AssemblyReference>
+      <AssemblyReference>System.Linq</AssemblyReference>
+      <AssemblyReference>System.Net.Mail</AssemblyReference>
+      <AssemblyReference>System.ObjectModel</AssemblyReference>
+      <AssemblyReference>System.Private.CoreLib</AssemblyReference>
+      <AssemblyReference>System.Xaml</AssemblyReference>
+      <AssemblyReference>System.Xml</AssemblyReference>
+      <AssemblyReference>System.Xml.Linq</AssemblyReference>
+      <AssemblyReference>UiPath.System.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.UiAutomation.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Studio.Constants</AssemblyReference>
+      <AssemblyReference>System.Private.ServiceModel</AssemblyReference>
+      <AssemblyReference>System.Runtime.Serialization.Formatters</AssemblyReference>
+      <AssemblyReference>System.Private.DataContractSerialization</AssemblyReference>
+      <AssemblyReference>System.Runtime.Serialization.Primitives</AssemblyReference>
+      <AssemblyReference>UiPath.UIAutomationNext</AssemblyReference>
+      <AssemblyReference>UiPath.UIAutomationCore</AssemblyReference>
+      <AssemblyReference>UiPath.UIAutomationNext.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.OCR.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Platform</AssemblyReference>
+      <AssemblyReference>System.Reflection.DispatchProxy</AssemblyReference>
+      <AssemblyReference>System.Reflection.TypeExtensions</AssemblyReference>
+      <AssemblyReference>System.Reflection.Metadata</AssemblyReference>
+    </sco:Collection>
+  </TextExpression.ReferencesForImplementation>
+  <Sequence DisplayName="SelectSaleLink" sap:VirtualizedContainerService.HintSize="546,588" sap2010:WorkflowViewState.IdRef="Sequence_1">
+    <sap:WorkflowViewStateService.ViewState>
+      <scg:Dictionary x:TypeArguments="x:String, x:Object">
+        <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+      </scg:Dictionary>
+    </sap:WorkflowViewStateService.ViewState>
+    <uix:NApplicationCard AttachMode="ByInstance" DisplayName="Issue Transactions Screen" sap:VirtualizedContainerService.HintSize="484,477" sap2010:WorkflowViewState.IdRef="NApplicationCard_1" ScopeGuid="36a65866-2120-4a43-8f10-d3bd03b656d7" Version="V2">
+      <uix:NApplicationCard.Body>
+        <ActivityAction x:TypeArguments="x:Object">
+          <ActivityAction.Argument>
+            <DelegateInArgument x:TypeArguments="x:Object" Name="WSSessionData" />
+          </ActivityAction.Argument>
+          <Sequence DisplayName="Do" sap:VirtualizedContainerService.HintSize="450,270" sap2010:WorkflowViewState.IdRef="Sequence_2">
+            <sap:WorkflowViewStateService.ViewState>
+              <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+              </scg:Dictionary>
+            </sap:WorkflowViewStateService.ViewState>
+            <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'Sale Link'" sap:VirtualizedContainerService.HintSize="388,157" sap2010:WorkflowViewState.IdRef="NClick_1" KeyModifiers="None" MouseButton="Left" Version="V3">
+              <uix:NClick.Target>
+                <uix:TargetAnchorable BrowserURL="https://qa2.velocitypayment.com/admin/imtiaz/bootstrap/vpos/742/" ContentHash="Q5BbQD-1W0GsdTJfHPFd2Q" CvElementArea="303, 454, 17, 20" CvTextArea="320, 454, 252, 22" CvTextArgument="Authorization &amp; Capture (Sale)" CvType="ArrowButton" DesignTimeRectangle="307, 452, 724, 28" DesignTimeScaleFactor="1" ElementType="Button" FriendlyName="'Authorization &amp;'" FullSelectorArgument="&lt;webctrl parentid='accordionExampleOne' tag='BUTTON' /&gt;" FuzzySelectorArgument="&lt;webctrl parentid='accordionExampleOne' tag='BUTTON' type='button' class='btn btn-link btn-block p-0 text-left' aaname=' &amp;#x9;                                    &amp;#x9;Authorization &amp;amp; Capture (Sale) &amp;#x9;                                    ' check:innerText='Authorization &amp;amp; Capture (Sale)' /&gt;" Guid="2b059108-e42c-42e9-8e72-06b833632deb" ImageBase64="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" InformativeScreenshot="a634d34d1183a29f2a06eb7f19b0f5dc.png" Reference="Ymb0GQZvuEKudTYaVyKksQ/iQKU3xOIzU6qbvbVr2qzAA" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Velocity Payment System' /&gt;" SearchSteps="FuzzySelector, CV" Version="V2" Visibility="Interactive" />
+              </uix:NClick.Target>
+            </uix:NClick>
+          </Sequence>
+        </ActivityAction>
+      </uix:NApplicationCard.Body>
+      <uix:NApplicationCard.TargetApp>
+        <uix:TargetApp Area="0, 0, 0, 0" Arguments="[inBrowserType]" BrowserType="Chrome" ContentHash="gSMm2FrCyEmz8EN1MZZUkQ" IconBase64="iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAMAAAAoLQ9TAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAwUExURSMjkefn80REocTE4pqazGBgr3NzuS0tli8vlzIymSoqlDIymCsrlTExmDMzmf///8d3SwgAAAAJcEhZcwAADsMAAA7DAcdvqGQAAACdSURBVChTHY5JEkRBBAXNpXzD/W/bqm2QEY+E2ULRJhJ88wNCJ+s70A8tkDhdEZ4AhgsEvj5tjKwOtoBOJ/GwyI7OINGHEA02QBUGGjd4DDICqp2A6tDwcVXTr29DV9oebp7heEAzHrhHRuNFBFIH1xSxq1NhW8naI27uJv/FktTIo/svtgrla159QZ/6jHn493nk7n8wbERNup9nflD7CDoRRsw8AAAAAElFTkSuQmCC" InformativeScreenshot="47593a568cd21779caf29b1945e56698.jpg" Reference="Ymb0GQZvuEKudTYaVyKksQ/CUm1pzZNikO_zbIp3CBJ0Q" Selector="[string.Format(&quot;&lt;html app='{0}.exe' title='Velocity Payment System' /&gt;&quot;, inBrowserType)]" Title="Velocity Payment System" />
+      </uix:NApplicationCard.TargetApp>
+    </uix:NApplicationCard>
+  </Sequence>
+</Activity>

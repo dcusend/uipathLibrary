@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="0GemL1Sy-0y1Zw8aXrvgRQ" Reference="Ymb0GQZvuEKudTYaVyKksQ/uTxxDUitiESccsEUh-D8IQ" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="https://qa2.velocitypayment.com/admin/imtiaz" CvTextArea="863, 764, 147, 18" CvTextArgument="Access AutoNoCFtp" CvType="Text" DesignTimeRectangle="860, 764, 149, 18" DesignTimeScaleFactor="1" ElementType="Text" FriendlyName="'Access AutoNoCFtp'" FullSelectorArgument="&lt;webctrl aaname='Access AutoNoCFtp' tag='A' /&gt;" FuzzyMatches="10000" FuzzySelectorArgument="[string.Format(&quot;&lt;webctrl aaname='{0}' tag='A' type='' class='' check:innerText='{0}' /&gt;&quot;, AppName)]" Guid="58bcc735-93d2-4887-ac4a-4cf3ad0b0f45" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Velocity Payment System' /&gt;" SearchSteps="FuzzySelector, CV" Version="V2" Visibility="Interactive">
+      <imageRef attrName="InformativeScreenshot" originalValue="143ece0d810ef3bca16d0e374566a955.png" xmlns="">07RPA1Gd_0UmtZE0gNg5-UA</imageRef>
+    </TargetAnchorable>
+    <scg:List x:TypeArguments="ObjectRepositoryVariableData" x:Key="Variables" Capacity="1">
+      <ObjectRepositoryVariableData Name="AppName" />
+    </scg:List>
+    <x:String x:Key="ActivityType">None</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

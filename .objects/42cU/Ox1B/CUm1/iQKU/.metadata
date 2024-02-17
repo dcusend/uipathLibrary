@@ -1,0 +1,13 @@
+﻿{
+  "Name": "Sale Link",
+  "Type": "Element",
+  "TaxonomyType": "Button",
+  "Id": "iQKU3xOIzU6qbvbVr2qzAA",
+  "Reference": "Ymb0GQZvuEKudTYaVyKksQ/iQKU3xOIzU6qbvbVr2qzAA",
+  "ParentRef": "Ymb0GQZvuEKudTYaVyKksQ/CUm1pzZNikO_zbIp3CBJ0Q",
+  "Created": "2024-02-17T21:46:41.7016511Z",
+  "Updated": "2024-02-17T21:46:41.7016511Z",
+  "CreatedBy": [
+    "UiPath.Platform, Version=23.10.0.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

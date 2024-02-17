@@ -1,0 +1,12 @@
+﻿{
+  "Name": "Sale KeypadEntry Screen",
+  "Type": "Screen",
+  "Id": "FoJPYThfW0eMKf_cKGlzHA",
+  "Reference": "Ymb0GQZvuEKudTYaVyKksQ/FoJPYThfW0eMKf_cKGlzHA",
+  "ParentRef": "Ymb0GQZvuEKudTYaVyKksQ/pX9L2yk0UEuX3xfs53ucsg",
+  "Created": "2024-02-17T22:22:13.6953852Z",
+  "Updated": "2024-02-17T22:22:13.6953852Z",
+  "CreatedBy": [
+    "UiPath.Platform, Version=23.10.0.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

@@ -1,0 +1,13 @@
+﻿{
+  "Name": "INPUT zip",
+  "Type": "Element",
+  "TaxonomyType": "Input",
+  "Id": "zPeDpsSR9ES38U_CR6lFtw",
+  "Reference": "Ymb0GQZvuEKudTYaVyKksQ/zPeDpsSR9ES38U_CR6lFtw",
+  "ParentRef": "Ymb0GQZvuEKudTYaVyKksQ/FoJPYThfW0eMKf_cKGlzHA",
+  "Created": "2024-02-17T22:22:14.5996712Z",
+  "Updated": "2024-02-17T22:22:14.5996712Z",
+  "CreatedBy": [
+    "UiPath.Platform, Version=23.10.0.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

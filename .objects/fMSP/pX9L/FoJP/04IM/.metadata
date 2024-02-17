@@ -1,0 +1,13 @@
+﻿{
+  "Name": "UDF6 DD",
+  "Type": "Element",
+  "TaxonomyType": "Dropdown",
+  "Id": "04IMfbGa7UuMBiMvyQbmOA",
+  "Reference": "Ymb0GQZvuEKudTYaVyKksQ/04IMfbGa7UuMBiMvyQbmOA",
+  "ParentRef": "Ymb0GQZvuEKudTYaVyKksQ/FoJPYThfW0eMKf_cKGlzHA",
+  "Created": "2024-02-17T22:22:15.7522258Z",
+  "Updated": "2024-02-17T22:22:15.7522258Z",
+  "CreatedBy": [
+    "UiPath.Platform, Version=23.10.0.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

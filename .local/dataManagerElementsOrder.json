@@ -52,6 +52,7 @@
         "asURL&Sequence_1"
       ],
       "ArgumentsSectionElementsOrder": [
+        "outBrowserName",
         "outASUsername",
         "outASPassword",
         "outDesiredURL",
@@ -78,12 +79,78 @@
     {
       "Path": "LoginFunctions/TestDescriptors.xaml",
       "SortBy": 0,
-      "VariablesSectionElementsOrder": [],
+      "VariablesSectionElementsOrder": [
+        "BrowserName&Sequence_1"
+      ],
       "ArgumentsSectionElementsOrder": [
         "inPassword",
         "inUsername",
         "inBrowserType",
         "inURL"
+      ],
+      "ConstantsSectionElementsOrder": null,
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "LoginFunctions/TestDescriptors-Standalone.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [],
+      "ArgumentsSectionElementsOrder": [
+        "inBrowserName",
+        "inURL"
+      ],
+      "ConstantsSectionElementsOrder": null,
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "LoginFunctions/LogoutFromAdminSuite.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [],
+      "ArgumentsSectionElementsOrder": [
+        "inBrowserType",
+        "inURL"
+      ],
+      "ConstantsSectionElementsOrder": null,
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "LoginFunctions/LogoutAS.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [],
+      "ArgumentsSectionElementsOrder": [
+        "SaddaBrowser"
+      ],
+      "ConstantsSectionElementsOrder": null,
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "LoginFunctions/Ditto-TestCaseForBrowser.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [],
+      "ArgumentsSectionElementsOrder": [
+        "SaddaBrowser"
+      ],
+      "ConstantsSectionElementsOrder": null,
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "LoginFunctions/TestUseApplicationBrowserActivity.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [
+        "browserType&Sequence_1"
+      ],
+      "ArgumentsSectionElementsOrder": [
+        "inBrowserType"
+      ],
+      "ConstantsSectionElementsOrder": null,
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "LoginFunctions/CalledFromTestUseAppBrowser.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [],
+      "ArgumentsSectionElementsOrder": [
+        "inBrowserType"
       ],
       "ConstantsSectionElementsOrder": null,
       "AddedNamespaces": null

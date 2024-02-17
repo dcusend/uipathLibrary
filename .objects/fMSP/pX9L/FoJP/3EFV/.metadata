@@ -1,0 +1,13 @@
+﻿{
+  "Name": "UDF5 DD",
+  "Type": "Element",
+  "TaxonomyType": "Dropdown",
+  "Id": "3EFVonR3iEi9bZmJw7TXgA",
+  "Reference": "Ymb0GQZvuEKudTYaVyKksQ/3EFVonR3iEi9bZmJw7TXgA",
+  "ParentRef": "Ymb0GQZvuEKudTYaVyKksQ/FoJPYThfW0eMKf_cKGlzHA",
+  "Created": "2024-02-17T22:22:15.6440056Z",
+  "Updated": "2024-02-17T22:22:15.6440056Z",
+  "CreatedBy": [
+    "UiPath.Platform, Version=23.10.0.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

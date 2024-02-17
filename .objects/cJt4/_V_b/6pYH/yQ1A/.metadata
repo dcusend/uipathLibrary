@@ -1,0 +1,13 @@
+﻿{
+  "Name": "Dashboard image",
+  "Type": "Element",
+  "TaxonomyType": "Label",
+  "Id": "yQ1APbzoP0STWIvGk8-2QQ",
+  "Reference": "Ymb0GQZvuEKudTYaVyKksQ/yQ1APbzoP0STWIvGk8-2QQ",
+  "ParentRef": "Ymb0GQZvuEKudTYaVyKksQ/6pYH26DOhUycxVj4PhfFcw",
+  "Created": "2024-02-14T01:59:43.0616859Z",
+  "Updated": "2024-02-14T01:59:43.0616859Z",
+  "CreatedBy": [
+    "UiPath.Platform, Version=23.10.0.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

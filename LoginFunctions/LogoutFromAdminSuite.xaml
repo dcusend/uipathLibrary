@@ -1,0 +1,139 @@
+<Activity mc:Ignorable="sap sap2010" x:Class="LogoutFromAdminSuite" this:LogoutFromAdminSuite.inBrowserType="Chrome" xmlns="http://schemas.microsoft.com/netfx/2009/xaml/activities" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" xmlns:sap="http://schemas.microsoft.com/netfx/2009/xaml/activities/presentation" xmlns:sap2010="http://schemas.microsoft.com/netfx/2010/xaml/activities/presentation" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:sco="clr-namespace:System.Collections.ObjectModel;assembly=System.Private.CoreLib" xmlns:this="clr-namespace:" xmlns:ui="http://schemas.uipath.com/workflow/activities" xmlns:uix="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <x:Members>
+    <x:Property Name="inURL" Type="InArgument(x:String)" />
+    <x:Property Name="inBrowserType" Type="InArgument(x:String)" />
+  </x:Members>
+  <VisualBasic.Settings>
+    <x:Null />
+  </VisualBasic.Settings>
+  <sap2010:Annotation.AnnotationText>UPTF00000088eyI8SGVscExpbms+a19fQmFja2luZ0ZpZWxkIjpudWxsLCI8SW5pdGlhbFRvb2x0aXA+a19fQmFja2luZ0ZpZWxkIjpudWxsLCI8VmVyc2lvbj5rX19CYWNraW5nRmllbGQiOjF9</sap2010:Annotation.AnnotationText>
+  <sap:VirtualizedContainerService.HintSize>900,1156</sap:VirtualizedContainerService.HintSize>
+  <sap2010:WorkflowViewState.IdRef>LogoutFromAdminSuite_1</sap2010:WorkflowViewState.IdRef>
+  <TextExpression.NamespacesForImplementation>
+    <sco:Collection x:TypeArguments="x:String">
+      <x:String>System.Activities</x:String>
+      <x:String>System.Activities.Statements</x:String>
+      <x:String>System.Activities.Expressions</x:String>
+      <x:String>System.Activities.Validation</x:String>
+      <x:String>System.Activities.XamlIntegration</x:String>
+      <x:String>Microsoft.VisualBasic</x:String>
+      <x:String>Microsoft.VisualBasic.Activities</x:String>
+      <x:String>System</x:String>
+      <x:String>System.Collections</x:String>
+      <x:String>System.Collections.Generic</x:String>
+      <x:String>System.Collections.ObjectModel</x:String>
+      <x:String>System.Data</x:String>
+      <x:String>System.Diagnostics</x:String>
+      <x:String>System.Drawing</x:String>
+      <x:String>System.IO</x:String>
+      <x:String>System.Linq</x:String>
+      <x:String>System.Net.Mail</x:String>
+      <x:String>System.Xml</x:String>
+      <x:String>System.Xml.Linq</x:String>
+      <x:String>UiPath.Core</x:String>
+      <x:String>UiPath.Core.Activities</x:String>
+      <x:String>System.Windows.Markup</x:String>
+      <x:String>System.Runtime.Serialization</x:String>
+      <x:String>UiPath.UIAutomationNext.Enums</x:String>
+      <x:String>UiPath.UIAutomationCore.Contracts</x:String>
+      <x:String>UiPath.UIAutomationNext.Activities</x:String>
+      <x:String>UiPath.Shared.Activities</x:String>
+      <x:String>UiPath.Platform.ObjectLibrary</x:String>
+      <x:String>UiPath.UIAutomationNext.Contracts</x:String>
+      <x:String>UiPath.UIAutomationNext.Models.CV</x:String>
+      <x:String>System.Reflection</x:String>
+      <x:String>System.ComponentModel</x:String>
+    </sco:Collection>
+  </TextExpression.NamespacesForImplementation>
+  <TextExpression.ReferencesForImplementation>
+    <sco:Collection x:TypeArguments="AssemblyReference">
+      <AssemblyReference>Microsoft.VisualBasic</AssemblyReference>
+      <AssemblyReference>mscorlib</AssemblyReference>
+      <AssemblyReference>System</AssemblyReference>
+      <AssemblyReference>System.Activities</AssemblyReference>
+      <AssemblyReference>System.Collections</AssemblyReference>
+      <AssemblyReference>System.ComponentModel.TypeConverter</AssemblyReference>
+      <AssemblyReference>System.Core</AssemblyReference>
+      <AssemblyReference>System.Data</AssemblyReference>
+      <AssemblyReference>System.Data.Common</AssemblyReference>
+      <AssemblyReference>System.Data.DataSetExtensions</AssemblyReference>
+      <AssemblyReference>System.Drawing</AssemblyReference>
+      <AssemblyReference>System.Drawing.Common</AssemblyReference>
+      <AssemblyReference>System.Drawing.Primitives</AssemblyReference>
+      <AssemblyReference>System.Linq</AssemblyReference>
+      <AssemblyReference>System.Net.Mail</AssemblyReference>
+      <AssemblyReference>System.ObjectModel</AssemblyReference>
+      <AssemblyReference>System.Private.CoreLib</AssemblyReference>
+      <AssemblyReference>System.Private.DataContractSerialization</AssemblyReference>
+      <AssemblyReference>System.Private.ServiceModel</AssemblyReference>
+      <AssemblyReference>System.Reflection.DispatchProxy</AssemblyReference>
+      <AssemblyReference>System.Reflection.Metadata</AssemblyReference>
+      <AssemblyReference>System.Reflection.TypeExtensions</AssemblyReference>
+      <AssemblyReference>System.Runtime.Serialization.Formatters</AssemblyReference>
+      <AssemblyReference>System.Runtime.Serialization.Primitives</AssemblyReference>
+      <AssemblyReference>System.Xaml</AssemblyReference>
+      <AssemblyReference>System.Xml</AssemblyReference>
+      <AssemblyReference>System.Xml.Linq</AssemblyReference>
+      <AssemblyReference>UiPath.OCR.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Platform</AssemblyReference>
+      <AssemblyReference>UiPath.Studio.Constants</AssemblyReference>
+      <AssemblyReference>UiPath.System.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.UiAutomation.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.UIAutomationCore</AssemblyReference>
+      <AssemblyReference>UiPath.UIAutomationNext</AssemblyReference>
+      <AssemblyReference>UiPath.UIAutomationNext.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Workflow</AssemblyReference>
+      <AssemblyReference>System.ComponentModel.EventBasedAsync</AssemblyReference>
+      <AssemblyReference>PresentationFramework</AssemblyReference>
+      <AssemblyReference>WindowsBase</AssemblyReference>
+      <AssemblyReference>Microsoft.Win32.Primitives</AssemblyReference>
+      <AssemblyReference>System.ComponentModel</AssemblyReference>
+      <AssemblyReference>System.ComponentModel.Primitives</AssemblyReference>
+    </sco:Collection>
+  </TextExpression.ReferencesForImplementation>
+  <Sequence DisplayName="LogoutFromAdminSuite" sap:VirtualizedContainerService.HintSize="546,1091" sap2010:WorkflowViewState.IdRef="Sequence_1">
+    <Sequence.Variables>
+      <Variable x:TypeArguments="ui:Browser" Name="CloseBrowserObject" />
+    </Sequence.Variables>
+    <sap:WorkflowViewStateService.ViewState>
+      <scg:Dictionary x:TypeArguments="x:String, x:Object">
+        <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+      </scg:Dictionary>
+    </sap:WorkflowViewStateService.ViewState>
+    <uix:NApplicationCard AttachMode="ByInstance" CloseMode="Always" DisplayName="Dashboard Screen" sap:VirtualizedContainerService.HintSize="484,980" sap2010:WorkflowViewState.IdRef="NApplicationCard_1" IsIncognito="False" OpenMode="Never" ScopeGuid="53ca9c15-3e1e-4810-8dad-e16faaa7f486" Version="V2">
+      <uix:NApplicationCard.Body>
+        <ActivityAction x:TypeArguments="x:Object">
+          <ActivityAction.Argument>
+            <DelegateInArgument x:TypeArguments="x:Object" Name="WSSessionData" />
+          </ActivityAction.Argument>
+          <Sequence DisplayName="Do" sap:VirtualizedContainerService.HintSize="450,813" sap2010:WorkflowViewState.IdRef="Sequence_2">
+            <sap:WorkflowViewStateService.ViewState>
+              <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+              </scg:Dictionary>
+            </sap:WorkflowViewStateService.ViewState>
+            <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'Dashboard image'" sap:VirtualizedContainerService.HintSize="388,157" sap2010:WorkflowViewState.IdRef="NClick_1" KeyModifiers="None" MouseButton="Left" Version="V3">
+              <uix:NClick.Target>
+                <uix:TargetAnchorable BrowserURL="https://qa2.velocitypayment.com/admin/imtiaz" ContentHash="WLP6TOkqSkWF-omU5haJbA" CvTextArea="48, 214, 83, 14" CvTextArgument="Dashboard" CvType="Text" DesignTimeRectangle="46, 211, 177, 23" DesignTimeScaleFactor="1" ElementType="Text" FriendlyName="'Dashboard'" FullSelectorArgument="&lt;webctrl aaname='Dashboard' tag='SPAN' /&gt;" FuzzySelectorArgument="&lt;webctrl aaname='Dashboard' tag='SPAN' type='' class='app-menu__label ml-1' check:innerText='Dashboard' /&gt;" Guid="17fff43a-622b-4156-ba49-d4703f3e0c08" ImageBase64="iVBORw0KGgoAAAANSUhEUgAAALUAAAAbCAYAAAA6Rc43AAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAU5SURBVHhe7ZrNSyNJGIfzZ+Sa4x73mGuOHufodY8yCEYGoZGBIQdB9yKCDCMehLAMQ0QG/MDQExRtcdWQUbRx0FbwIyJK0yhJE2h++1Z1dax0DLY740SaekBMdaqr3jJPVb9VMQGFImYoqRWxQ0mtiB1KakXsUFIrYoeSWhE7uix1A3XHQb0hip1o1GA7NVF4zUQcj+JFkaR2YHzdxNhM8LOF/PohyucvKdMRcm8XkPsuip34biDx1oAhiq+XiONRvCiS1DfI5xbw58jag9iTJaQHFpAaNqDfeqLer0RJrfj1tEn9ZvFGlAXeHYyZIpL9q9DDi7bnomoeQt8+hHHi+NfcO9j3rv86wL6AQXX07VNUXXlySBK41yjzOhYO7NDzW5batXGw16FeE0oDzk95XPreBTpWa+vTQ/3egR3E2Ex76PoltReMMSAYF+uD36Okfg08LTXDu8DUe1rF86fiAnG5j6y2gET/EjLDRWQGaUXPbaHwRUciV0GVV/JgLZeQog86zeoMsfpF+tCD2eFL0DdtIDMg2mF16Npfy9eiDiGknqffmX6pLaqXmTmCLc+TWxNaKC7Wp7ZhiwoMimtllbeVHGT1lvAHvX7zeRcT8t+A97uG/KKOJPWVmD7yr6OG8medjys1RH3Q/SnqI7tSgUbXlNTdJZrURJU+2MS7TZRZwTvFGEmVHKnAaq6CDVjfVpFmH34gtbOPPir3rQcSk0yzxYd2hNSJIVqFncBMameeSVRCIfCQy0X9aXI9D/aPHfSSjL3LIuZg8k3uoyrHxdtbwpgp7jU3eZy981d+mdG4QmF8iffTKjVNoo9myxPGXinx9nLbd+IK4VgY+0BjofpK6u4SWeqWFIBet0jXpIb5cUlq9xAaWwG/yvLIJxm+1G19ekd8xdO2hUi8b5Jy/0EsHw8HX2iSDO/AYsWOcTkojNKk4CutB2OaYhzdRXv4Jp+ErVLryF/6RR+x95CfWgHHW8goqbtOZKnrG6tNqfmqHYgUgr8npR/2xpp4zBfRN1MJ5aWdctCQ7FyuNRhhpxn8vafjYqu1H5c/zszshXhHJvQ3kNp+wI8tuxHaN3A6jUfxO4kotYdynh7NI7tc1uoyCdJviBSiFZ5eNKUW0OpsmSby0zrPXdO0Ytb5G8+RuoT50D6N0TLZWFzN1KaV8j8Uv5C6MEKTbOYx9Sl9GX5Kags5OeWRcU1kldRdJ5rUlxWeu2Y3RNpwvoOex9IBkdM2pbYv+MlCVV7U+CM6EPQ5UtPm8VvY6hr0SSmV4HEVMXUSjsvfA/TM+WmQNSfy+vDKf8Luf0pqF/rHx9MXNsHYhlJJ3V3apZ49o5zX8X+uSco5/5SAnTL4qytDyDRQwpR5g3qjgfr1KfLjRaSHghWREDl1evrQP/JqOCiz05GmUM+ReglprQht/Yraov7ur6Czo0a2YdsLZk2N8mXqf2gVedNG3WNHexYmKJ/mm9EglafcOUtxpUZ3UL6mi/QkqZoV9GnUx7unpCaE/JlPJix2fOnewfrXQA+7X0ndddqkZiti84cds40aKPyQdvkBng0j7x9r8brsSGvxDActOTWtXscVZOmRHrSZHKSJcNy6UYwmNcl1e4QxKcbkoI6JvVBsIi6W5gT1Mn+TvM1TE0G4LY0mwvFZhJzah4+LHR2K+1O5TR7f4+NR/E4kqf8nnhvt/zLYlzK1Tt+CPJNIbbH/w7ij1VoUO/GzcdWkL2sUr4Kfl1qheGUoqRWxQ0mtiB1KakXsUFIrYoeSWhE7lNSK2KGkVsQM4D9TBzH0o/QFQwAAAABJRU5ErkJggg==" InformativeScreenshot="b490e718f22af091e082a6f675072a37.png" Reference="Ymb0GQZvuEKudTYaVyKksQ/yQ1APbzoP0STWIvGk8-2QQ" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Velocity Payment System' /&gt;" SearchSteps="FuzzySelector, CV" Version="V2" Visibility="Interactive" />
+              </uix:NClick.Target>
+            </uix:NClick>
+            <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'Select Profile Image'" sap:VirtualizedContainerService.HintSize="388,157" sap2010:WorkflowViewState.IdRef="NClick_2" KeyModifiers="None" MouseButton="Left" Version="V3">
+              <uix:NClick.Target>
+                <uix:TargetAnchorable BrowserURL="https://qa2.velocitypayment.com/admin/imtiaz" ContentHash="wh9mPDwU10uJXH3_zjrrFQ" CvElementArea="1852, 145, 26, 29" CvType="Icon" DesignTimeRectangle="1856, 151, 19, 20" DesignTimeScaleFactor="1" FriendlyName="'I'" FullSelectorArgument="&lt;webctrl tag='I' /&gt;" FuzzySelectorArgument="&lt;webctrl tag='I' type='' class='fa fa-user fa-lg' aaname='' /&gt;" Guid="b5ce9f9d-8ece-4030-8d60-3a37c1fc829c" ImageBase64="iVBORw0KGgoAAAANSUhEUgAAABcAAAAYCAYAAAARfGZ1AAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAG4SURBVEhLrdZBS8JgHMdxX4ZXj908evXY0WNvQQihQwjSRTyEEIKEh8JLSgQRHYphjiHCEGHKQEWCESaIFDMEGVLM8Wu2pc/mf9jCw/e2/2cPsud5DCwMA559quDLAvYSHAKH66JnEkRVp2eYvHFNQTrlRB0lBFwoGj1r54FP8ZAjQHeJOniNmrei8X4TYQoj2r8fb87bkbjyKJAQ2WkHI8JYRuJikUC8SkroEsYyeuV3VRqiysj+Vr6QGwhSEFH4erA5b0fjhopShsYcmZ/j7Ziat/LAzUY9xJMEuKqCtOz3O5+OwXMS8sIQk+kQpfPqxk8UTNVRMjeQ1pORvZHBv86chh2D65hIDUSZrR7JtyG+f5m7VUW38wxeGkCZzbGYv/0cCyHmhdErBRoDO/FxBweuM+S3ULKKWE5E9rKO2EnFgbLFa1MK19EqV8gBXx030dLduG4eUh6r9lcF2b4bf2kjSj7svxinunBz01AP/qui4sRHnI+DaluF/uqr2T3OnDUW/rRDPNfDhMX9XA7bYi8PCzc08AX6YV8lGxCZa8/GzfQPiOUaIkfE0B+KZJsb/wjW+M4z8A2zSFCghFz/0gAAAABJRU5ErkJggg==" InformativeScreenshot="9a98e84c151690c5110e74180ebe2498.png" Reference="Ymb0GQZvuEKudTYaVyKksQ/FW4cvM3Qp0yLisqTsblopw" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Velocity Payment System' /&gt;" SearchSteps="FuzzySelector, CV" Version="V2" Visibility="Interactive" />
+              </uix:NClick.Target>
+            </uix:NClick>
+            <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'Select Logout Image'" sap:VirtualizedContainerService.HintSize="388,157" sap2010:WorkflowViewState.IdRef="NClick_3" KeyModifiers="None" MouseButton="Left" Version="V3">
+              <uix:NClick.Target>
+                <uix:TargetAnchorable BrowserURL="https://qa2.velocitypayment.com/admin/imtiaz" ContentHash="O2eVghcU90WVoTyBCUJfbg" CvTextArea="1752, 316, 53, 18" CvTextArgument="Logout" CvType="Text" DesignTimeRectangle="1753, 312, 51, 21" DesignTimeScaleFactor="1" ElementType="Text" FriendlyName="'Logout'" FullSelectorArgument="&lt;webctrl aaname='Logout' parentid='collapseExample' tag='SPAN' /&gt;" FuzzySelectorArgument="&lt;webctrl aaname='Logout' parentid='collapseExample' tag='SPAN' type='' class='align-self-center text-dark-blue mr-3' check:innerText='Logout' /&gt;" Guid="eaa9b598-37c2-4d53-aeb8-aa36feb838b6" ImageBase64="iVBORw0KGgoAAAANSUhEUgAAADcAAAAZCAYAAACVfbYAAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAN5SURBVFhH7VYJT1NBEPZvaeJtNPFEESN4IBEVEDXGROQQRTlEBSGaYDQgoEGE1AgIlWARYrFFLsUCVZQCQYhcBStFEDr2W3bfez00RYFY5Esa9s3O7s43M/sty2gRY4mct2KJnLdiiZy34v8gNzU1TW1tnfS5d5BbvAPT0zYaHf1Gk5M/uEWGRG58fIIuXMyikpIabvEOmEcsFBycTI2NH7hFxqzIobodpl62kdlsIZvNxmdkwDYwMEINDe9ZFyCzyCqyi7ESsKNbDIYOslis3DoDnOWuIko7xl3dXygoKIleapsZUfAQ8IgcAm5qaie/PbG0dVsEBR5KpNVrTlJ0zF0aHv7KvYiNYVu5Kpz2H7hMvr4x7Luioo5lF4cDIFle/prtBR/4rl13itLTC8lq/c58TKY+2rkr2qUiSrsYL18RKv2U8XtEzmjsJh+fKCq2z4nsDw2N0vnYTIqPz2Frkcnkq3kUdjyVevm9hW9VVRNt3xHpQK6m5h1t3nKW9PoWqfrd9gocC7lOmVmlrCKekAP+qi1xeEbGE0pIvO/SIu3tPbTbL5YMLSZ26F7/OGpu/sRnZ4D197LVEjlxDmyCmIBO10IB+y6xdl4QcsJeVKTlFhliY7VazzY/GJhA/f1mPisDlRLkxJq6OiOflYHAkaw3bz8uLLnsHDW3yBAbV1Y2ss39A+LcPiWYdyYHmzMQOKqPToBQgOi8kgNALOLcbRdFQ/YRDA4EKbSURtPAZ2eAVkZLC3L4TrrygG6kFbC7pQTOPnL0GlNiKCLuIMRICbT9+g2n/4xcQeELKcM4AAH09PSzwNPsagaZn5iYpNraVmYTAoD7k5v7jGUVsgwSWJ9lnw8NS5HIAZB+CEpeXgXzgUKCBISnrEzPfLAn9j5sXwd/fOMZAmGooiAjkqB6XM32Bw8BF3JKWUWgqArQ1zdEkVF3mMxjDur5tFTnIDIYP8zX0MZNZ5gP/uIbqqgkB7QZuyj8RJp0Fp6DVzqDw1sI0jdvqdizI3xUqmqHtkRSn2vqWTzwUXaeRM5TgADa01nplECA8BFtpxQUZyCpY2Pj/Ms9sI94/2aDWZP7FRBkauojKirWOhDHGLKPe6as8kJgzsgBEBPcJfT/4OAI++Xb2xL/ibi78PONOSWHKkFBQ0JTpLuEe9Xa2vnbNp4vzCm5fw2LmBzRT0KOMpXht8EpAAAAAElFTkSuQmCC" InformativeScreenshot="680efbd2013d67fc1c1f1dffb3b9804c.png" Reference="Ymb0GQZvuEKudTYaVyKksQ/WUGOpXqEf0eKd77YB8IW_A" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Velocity Payment System' /&gt;" SearchSteps="FuzzySelector, CV" Version="V2" Visibility="Interactive" />
+              </uix:NClick.Target>
+            </uix:NClick>
+            <ui:CloseWindow Selector="{x:Null}" TimeoutMS="{x:Null}" UseWindow="{x:Null}" DisplayName="Close Window 'chrome.exe  chrome'" sap:VirtualizedContainerService.HintSize="388,107" sap2010:WorkflowViewState.IdRef="CloseWindow_2" InformativeScreenshot="f6781615c0cf26c304e78032679638b2" WaitForReady="INTERACTIVE" />
+          </Sequence>
+        </ActivityAction>
+      </uix:NApplicationCard.Body>
+      <uix:NApplicationCard.TargetApp>
+        <uix:TargetApp Area="0, 0, 0, 0" Arguments="[inBrowserType]" BrowserType="Chrome" ContentHash="HwAon7hMXESA2wZtZSUL8A" IconBase64="iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAMAAAAoLQ9TAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAwUExURSMjkefn80REocTE4pqazGBgr3NzuS0tli8vlzIymSoqlDIymCsrlTExmDMzmf///8d3SwgAAAAJcEhZcwAADsMAAA7DAcdvqGQAAACdSURBVChTHY5JEkRBBAXNpXzD/W/bqm2QEY+E2ULRJhJ88wNCJ+s70A8tkDhdEZ4AhgsEvj5tjKwOtoBOJ/GwyI7OINGHEA02QBUGGjd4DDICqp2A6tDwcVXTr29DV9oebp7heEAzHrhHRuNFBFIH1xSxq1NhW8naI27uJv/FktTIo/svtgrla159QZ/6jHn493nk7n8wbERNup9nflD7CDoRRsw8AAAAAElFTkSuQmCC" InformativeScreenshot="845e1bd8f32d41d5e633ec287d705e2d.jpg" Reference="Ymb0GQZvuEKudTYaVyKksQ/6pYH26DOhUycxVj4PhfFcw" Selector="[string.Format(&quot;&lt;html app='{0}.exe' title='Velocity Payment System' /&gt;&quot;, inBrowserType)]" Title="Velocity Payment System" Url="[inURL]" />
+      </uix:NApplicationCard.TargetApp>
+    </uix:NApplicationCard>
+  </Sequence>
+</Activity>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="xdiJtT80Y0qEllu5Z883Vw" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="https://qa2.velocitypayment.com/admin/imtiaz/bootstrap/vpos/742/transactions/AuthCapForm/" DesignTimeRectangle="683, 671, 375, 47" DesignTimeScaleFactor="1" ElementType="DropDown" FriendlyName="'YYYY'" FullSelectorArgument="&lt;webctrl aria-label='Default select example' name='cardExpYear' tag='SELECT' /&gt;" FuzzySelectorArgument="&lt;webctrl aria-label='Default select example' name='cardExpYear' tag='SELECT' type='' class='form-select form-control' aaname='' /&gt;" Guid="f7613eee-1b02-4213-9e8d-530a640e82cf" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Velocity Payment System' /&gt;" SearchSteps="FuzzySelector" Version="V2" Visibility="Interactive">
+      <imageRef attrName="InformativeScreenshot" originalValue="34d2ad3838092d01b8e76096a516b128.png" xmlns="">0yf-TL0u_PkuzdmTFpL4Xsw</imageRef>
+    </TargetAnchorable>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

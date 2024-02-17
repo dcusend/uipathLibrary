@@ -1,0 +1,13 @@
+﻿{
+  "Name": "UDF1",
+  "Type": "Element",
+  "TaxonomyType": "Input",
+  "Id": "7ZhaOL4_MUm7HE5VKd0ydw",
+  "Reference": "Ymb0GQZvuEKudTYaVyKksQ/7ZhaOL4_MUm7HE5VKd0ydw",
+  "ParentRef": "Ymb0GQZvuEKudTYaVyKksQ/FoJPYThfW0eMKf_cKGlzHA",
+  "Created": "2024-02-17T22:22:15.2081103Z",
+  "Updated": "2024-02-17T22:22:15.2081103Z",
+  "CreatedBy": [
+    "UiPath.Platform, Version=23.10.0.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

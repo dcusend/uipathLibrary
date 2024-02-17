@@ -1,0 +1,16 @@
+﻿{
+  "Name": "Login Screen ADminSuite Screen2",
+  "Type": "Screen",
+  "TaxonomyType": "Screen",
+  "Id": "YdITdJudeUGS0YoIZpqKmw",
+  "Reference": "Ymb0GQZvuEKudTYaVyKksQ/YdITdJudeUGS0YoIZpqKmw",
+  "ParentRef": "Ymb0GQZvuEKudTYaVyKksQ/1t3LQlwTlEKIo3tL8vuB9w",
+  "Created": "2024-02-16T02:22:29.4926001Z",
+  "Updated": "2024-02-16T02:22:42.1524759Z",
+  "CreatedBy": [
+    "UiPath.Platform, Version=23.10.0.0, Culture=neutral, PublicKeyToken=null"
+  ],
+  "UpdatedBy": [
+    "UiPath.Platform, Version=23.10.0.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}
