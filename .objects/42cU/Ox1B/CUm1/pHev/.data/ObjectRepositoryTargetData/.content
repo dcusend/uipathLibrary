@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="V0fMqcPtPEmcVlEK1LqWEA" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="https://qa2.velocitypayment.com/admin/imtiaz/bootstrap/vpos/742/" CvTextArea="339, 492, 114, 18" CvTextArgument="Keyboard Entry" CvType="Text" DesignTimeRectangle="339, 489, 113, 21" DesignTimeScaleFactor="1" ElementType="Text" FriendlyName="'Keyboard Entry'" FullSelectorArgument="&lt;webctrl parentid='collapseOne' tag='A' /&gt;" FuzzySelectorArgument="&lt;webctrl parentid='collapseOne' tag='A' type='' class='ml-2' aaname='Keyboard Entry' check:innerText='Keyboard Entry' /&gt;" Guid="fb95a6b1-a87f-45b7-a991-20a2bdf8f110" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Velocity Payment System' /&gt;" SearchSteps="FuzzySelector, CV" Version="V2" Visibility="Interactive">
+      <imageRef attrName="InformativeScreenshot" originalValue="1abcacfe67e555dfebf183f63e7e4be1.png" xmlns="">0VwpTd3dGRE6BrWtdbCjp8g</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">TypeInto</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

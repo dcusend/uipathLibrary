@@ -12,7 +12,7 @@
     <x:Null />
   </VisualBasic.Settings>
   <sap2010:Annotation.AnnotationText>UPTF00000088eyI8SGVscExpbms+a19fQmFja2luZ0ZpZWxkIjpudWxsLCI8SW5pdGlhbFRvb2x0aXA+a19fQmFja2luZ0ZpZWxkIjpudWxsLCI8VmVyc2lvbj5rX19CYWNraW5nRmllbGQiOjF9</sap2010:Annotation.AnnotationText>
-  <sap:VirtualizedContainerService.HintSize>900,761</sap:VirtualizedContainerService.HintSize>
+  <sap:VirtualizedContainerService.HintSize>900,1764</sap:VirtualizedContainerService.HintSize>
   <sap2010:WorkflowViewState.IdRef>Setup_AdminSuite_Library_1</sap2010:WorkflowViewState.IdRef>
   <TextExpression.NamespacesForImplementation>
     <sco:Collection x:TypeArguments="x:String">
@@ -72,7 +72,7 @@
       <AssemblyReference>UiPath.Workflow</AssemblyReference>
     </sco:Collection>
   </TextExpression.ReferencesForImplementation>
-  <Sequence DisplayName="Setup_AdminSuite_Library" sap:VirtualizedContainerService.HintSize="558,602" sap2010:WorkflowViewState.IdRef="Sequence_1">
+  <Sequence DisplayName="Setup_AdminSuite_Library" sap:VirtualizedContainerService.HintSize="598,1699" sap2010:WorkflowViewState.IdRef="Sequence_1">
     <Sequence.Variables>
       <Variable x:TypeArguments="x:String" Name="asURL" />
       <Variable x:TypeArguments="x:String" Name="asUsername" />
@@ -85,7 +85,7 @@
         <x:Boolean x:Key="IsExpanded">True</x:Boolean>
       </scg:Dictionary>
     </sap:WorkflowViewStateService.ViewState>
-    <Switch x:TypeArguments="x:String" DisplayName="Set Desired Browser Type" Expression="[DesiredBrowser]" sap:VirtualizedContainerService.HintSize="496,289" sap2010:WorkflowViewState.IdRef="Switch`1_1">
+    <Switch x:TypeArguments="x:String" DisplayName="Set Desired Browser Type" Expression="[DesiredBrowser]" sap:VirtualizedContainerService.HintSize="536,741" sap2010:WorkflowViewState.IdRef="Switch`1_1">
       <Switch.Default>
         <ui:LogMessage DisplayName="Log Message" sap:VirtualizedContainerService.HintSize="334,141" sap2010:WorkflowViewState.IdRef="LogMessage_2" Level="[UiPath.Core.Activities.LogLevel.Info]" Message="[&quot;Unexpected DesiredBrowser Value:&quot; + DesiredBrowser]" />
       </Switch.Default>
@@ -95,14 +95,14 @@
           <x:Boolean x:Key="IsPinned">False</x:Boolean>
         </scg:Dictionary>
       </sap:WorkflowViewStateService.ViewState>
-      <Sequence x:Key="Chrome" DisplayName="Set Browser Type to Chrome" sap:VirtualizedContainerService.HintSize="496,496" sap2010:WorkflowViewState.IdRef="Sequence_2">
+      <Sequence x:Key="Chrome" DisplayName="Set Browser Type to Chrome" sap:VirtualizedContainerService.HintSize="496,493" sap2010:WorkflowViewState.IdRef="Sequence_2">
         <sap:WorkflowViewStateService.ViewState>
           <scg:Dictionary x:TypeArguments="x:String, x:Object">
             <x:Boolean x:Key="IsExpanded">True</x:Boolean>
           </scg:Dictionary>
         </sap:WorkflowViewStateService.ViewState>
-        <ui:LogMessage DisplayName="Log Message" sap:VirtualizedContainerService.HintSize="434,141" sap2010:WorkflowViewState.IdRef="LogMessage_1" Level="[UiPath.Core.Activities.LogLevel.Info]" Message="[&quot;DesiredBrowser Value:&quot; + DesiredBrowser]" />
-        <Assign DisplayName="Set Browser Type to Chrome" sap:VirtualizedContainerService.HintSize="434,82" sap2010:WorkflowViewState.IdRef="Assign_1">
+        <ui:LogMessage DisplayName="Log Message" sap:VirtualizedContainerService.HintSize="434,181" sap2010:WorkflowViewState.IdRef="LogMessage_1" Level="[UiPath.Core.Activities.LogLevel.Info]" Message="[&quot;DesiredBrowser Value:&quot; + DesiredBrowser]" />
+        <Assign DisplayName="Set Browser Type to Chrome" sap:VirtualizedContainerService.HintSize="434,122" sap2010:WorkflowViewState.IdRef="Assign_1">
           <Assign.To>
             <OutArgument x:TypeArguments="ui:BrowserType">[outDesiredBrowserType]</OutArgument>
           </Assign.To>
@@ -110,7 +110,7 @@
             <InArgument x:TypeArguments="ui:BrowserType">[BrowserType.Chrome]</InArgument>
           </Assign.Value>
         </Assign>
-        <Assign sap:VirtualizedContainerService.HintSize="434,82" sap2010:WorkflowViewState.IdRef="Assign_3">
+        <Assign sap:VirtualizedContainerService.HintSize="434,105" sap2010:WorkflowViewState.IdRef="Assign_3">
           <Assign.To>
             <OutArgument x:TypeArguments="x:String">[outBrowserName]</OutArgument>
           </Assign.To>
@@ -119,7 +119,7 @@
           </Assign.Value>
         </Assign>
       </Sequence>
-      <Sequence x:Key="Edge" DisplayName="Set Browser Type to Edge" sap:VirtualizedContainerService.HintSize="450,81" sap2010:WorkflowViewState.IdRef="Sequence_3">
+      <Sequence x:Key="Edge" DisplayName="Set Browser Type to Edge" sap:VirtualizedContainerService.HintSize="416,78" sap2010:WorkflowViewState.IdRef="Sequence_3">
         <sap:WorkflowViewStateService.ViewState>
           <scg:Dictionary x:TypeArguments="x:String, x:Object">
             <x:Boolean x:Key="IsExpanded">False</x:Boolean>
@@ -145,14 +145,14 @@
         </Assign>
       </Sequence>
     </Switch>
-    <Switch x:TypeArguments="x:String" DisplayName="Switch" Expression="[Environment]" sap:VirtualizedContainerService.HintSize="496,162" sap2010:WorkflowViewState.IdRef="Switch`1_2">
-      <Sequence x:Key="QA" sap:VirtualizedContainerService.HintSize="450,534" sap2010:WorkflowViewState.IdRef="Sequence_4">
+    <Switch x:TypeArguments="x:String" DisplayName="Switch" Expression="[Environment]" sap:VirtualizedContainerService.HintSize="536,870" sap2010:WorkflowViewState.IdRef="Switch`1_2">
+      <Sequence x:Key="QA" sap:VirtualizedContainerService.HintSize="450,468" sap2010:WorkflowViewState.IdRef="Sequence_4">
         <sap:WorkflowViewStateService.ViewState>
           <scg:Dictionary x:TypeArguments="x:String, x:Object">
             <x:Boolean x:Key="IsExpanded">True</x:Boolean>
           </scg:Dictionary>
         </sap:WorkflowViewStateService.ViewState>
-        <ui:GetRobotAsset TimeoutMS="{x:Null}" AssetName="Global.VPS.QA.URL" CacheStrategy="None" DisplayName="Get QA URL" FolderPath="Shared" sap:VirtualizedContainerService.HintSize="388,143" sap2010:WorkflowViewState.IdRef="GetRobotAsset_1">
+        <ui:GetRobotAsset TimeoutMS="{x:Null}" AssetName="Global.VPS.QA.URL" CacheStrategy="None" DisplayName="Get QA URL" FolderPath="Shared" sap:VirtualizedContainerService.HintSize="388,97" sap2010:WorkflowViewState.IdRef="GetRobotAsset_1">
           <ui:GetRobotAsset.Value>
             <OutArgument x:TypeArguments="x:String">[outDesiredURL]</OutArgument>
           </ui:GetRobotAsset.Value>
@@ -168,25 +168,47 @@
           </ui:GetRobotAsset.Value>
         </ui:GetRobotAsset>
       </Sequence>
-      <Sequence x:Key="QA2" sap:VirtualizedContainerService.HintSize="450,534" sap2010:WorkflowViewState.IdRef="Sequence_5">
+      <Sequence x:Key="QA2" sap:VirtualizedContainerService.HintSize="416,617" sap2010:WorkflowViewState.IdRef="Sequence_5">
         <sap:WorkflowViewStateService.ViewState>
           <scg:Dictionary x:TypeArguments="x:String, x:Object">
             <x:Boolean x:Key="IsExpanded">True</x:Boolean>
           </scg:Dictionary>
         </sap:WorkflowViewStateService.ViewState>
-        <ui:GetRobotAsset TimeoutMS="{x:Null}" AssetName="Global.VPS.QA2.URL" CacheStrategy="None" DisplayName="Get QA2 URL" FolderPath="Shared" sap:VirtualizedContainerService.HintSize="388,143" sap2010:WorkflowViewState.IdRef="GetRobotAsset_2">
+        <ui:GetRobotAsset TimeoutMS="{x:Null}" AssetName="Global.VPS.QA2.URL" CacheStrategy="None" DisplayName="Get QA2 URL" FolderPath="Shared" sap:VirtualizedContainerService.HintSize="354,183" sap2010:WorkflowViewState.IdRef="GetRobotAsset_2">
           <ui:GetRobotAsset.Value>
             <OutArgument x:TypeArguments="x:String">[outDesiredURL]</OutArgument>
           </ui:GetRobotAsset.Value>
         </ui:GetRobotAsset>
-        <ui:GetRobotAsset TimeoutMS="{x:Null}" AssetName="Global.VPS.QA.AdminSuitePassword" CacheStrategy="None" DisplayName="Get QA2 Password" FolderPath="Shared" sap:VirtualizedContainerService.HintSize="388,143" sap2010:WorkflowViewState.IdRef="GetRobotAsset_5">
+        <ui:GetRobotAsset TimeoutMS="{x:Null}" AssetName="Global.VPS.QA.AdminSuitePassword" CacheStrategy="None" DisplayName="Get QA2 Password" FolderPath="Shared" sap:VirtualizedContainerService.HintSize="354,183" sap2010:WorkflowViewState.IdRef="GetRobotAsset_5">
           <ui:GetRobotAsset.Value>
             <OutArgument x:TypeArguments="x:String">[outASPassword]</OutArgument>
           </ui:GetRobotAsset.Value>
         </ui:GetRobotAsset>
-        <ui:GetRobotAsset TimeoutMS="{x:Null}" AssetName="Global.VPS.QA.AdminSuiteUsername" CacheStrategy="None" DisplayName="Get QA2 Username" FolderPath="Shared" sap:VirtualizedContainerService.HintSize="388,143" sap2010:WorkflowViewState.IdRef="GetRobotAsset_6">
+        <ui:GetRobotAsset TimeoutMS="{x:Null}" AssetName="Global.VPS.QA.AdminSuiteUsername" CacheStrategy="None" DisplayName="Get QA2 Username" FolderPath="Shared" sap:VirtualizedContainerService.HintSize="354,166" sap2010:WorkflowViewState.IdRef="GetRobotAsset_6">
           <ui:GetRobotAsset.Value>
             <OutArgument x:TypeArguments="x:String">[outASUsername]</OutArgument>
+          </ui:GetRobotAsset.Value>
+        </ui:GetRobotAsset>
+      </Sequence>
+      <Sequence x:Key="Demo" sap:VirtualizedContainerService.HintSize="416,617" sap2010:WorkflowViewState.IdRef="Sequence_6">
+        <sap:WorkflowViewStateService.ViewState>
+          <scg:Dictionary x:TypeArguments="x:String, x:Object">
+            <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+          </scg:Dictionary>
+        </sap:WorkflowViewStateService.ViewState>
+        <ui:GetRobotAsset TimeoutMS="{x:Null}" AssetName="Global.VPS.Demo.URL" CacheStrategy="None" DisplayName="Get Demo URL" FolderPath="Shared" sap:VirtualizedContainerService.HintSize="354,183" sap2010:WorkflowViewState.IdRef="GetRobotAsset_7">
+          <ui:GetRobotAsset.Value>
+            <OutArgument x:TypeArguments="x:String">[outDesiredURL]</OutArgument>
+          </ui:GetRobotAsset.Value>
+        </ui:GetRobotAsset>
+        <ui:GetRobotAsset TimeoutMS="{x:Null}" AssetName="Global.VPS.Demo.AdminSuiteUsername" CacheStrategy="None" DisplayName="Get Demo Username" FolderPath="Shared" sap:VirtualizedContainerService.HintSize="354,183" sap2010:WorkflowViewState.IdRef="GetRobotAsset_8">
+          <ui:GetRobotAsset.Value>
+            <OutArgument x:TypeArguments="x:String">[outASUsername]</OutArgument>
+          </ui:GetRobotAsset.Value>
+        </ui:GetRobotAsset>
+        <ui:GetRobotAsset TimeoutMS="{x:Null}" AssetName="Global.VPS.Demo.AdminSuitePassword" CacheStrategy="None" DisplayName="Get Demo Password" FolderPath="Shared" sap:VirtualizedContainerService.HintSize="354,166" sap2010:WorkflowViewState.IdRef="GetRobotAsset_9">
+          <ui:GetRobotAsset.Value>
+            <OutArgument x:TypeArguments="x:String">[outASPassword]</OutArgument>
           </ui:GetRobotAsset.Value>
         </ui:GetRobotAsset>
       </Sequence>

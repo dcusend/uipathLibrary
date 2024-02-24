@@ -105,7 +105,9 @@
     {
       "Path": "LoginFunctions/LogoutFromAdminSuite.xaml",
       "SortBy": 0,
-      "VariablesSectionElementsOrder": [],
+      "VariablesSectionElementsOrder": [
+        "CloseBrowserObject&Sequence_1"
+      ],
       "ArgumentsSectionElementsOrder": [
         "inBrowserType",
         "inURL"
@@ -147,6 +149,47 @@
     },
     {
       "Path": "LoginFunctions/CalledFromTestUseAppBrowser.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [],
+      "ArgumentsSectionElementsOrder": [
+        "inBrowserType"
+      ],
+      "ConstantsSectionElementsOrder": null,
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "NavigationFunctions/SelectApplicationLink.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [],
+      "ArgumentsSectionElementsOrder": [
+        "AppName",
+        "inBrowserType"
+      ],
+      "ConstantsSectionElementsOrder": null,
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "NavigationFunctions/SelectSaleLink.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [],
+      "ArgumentsSectionElementsOrder": [
+        "inBrowserType"
+      ],
+      "ConstantsSectionElementsOrder": null,
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "SetDataFunctions/SetDataSaleKeypadEntry.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [],
+      "ArgumentsSectionElementsOrder": [
+        "inBrowserType"
+      ],
+      "ConstantsSectionElementsOrder": null,
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "NavigationFunctions/SelectKeyboardEntryLink.xaml",
       "SortBy": 0,
       "VariablesSectionElementsOrder": [],
       "ArgumentsSectionElementsOrder": [

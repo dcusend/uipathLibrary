@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="oh02tbCLcUigXI2ko3wYYw" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="https://qa2.velocitypayment.com/admin/imtiaz/bootstrap/vpos/742/transactions/AuthCapForm/" CvElementArea="277, 524, 377, 49" CvType="InputBox" DesignTimeRectangle="278, 525, 375, 47" DesignTimeScaleFactor="1" ElementType="InputBox" FriendlyName="'INPUT card_name'" FullSelectorArgument="&lt;webctrl id='card_name' tag='INPUT' /&gt;" FuzzyAccuracy="0.89" FuzzySelectorArgument="&lt;webctrl id='card_name' tag='INPUT' type='TEXT' class='form-control' aaname='' /&gt;" Guid="269b11e1-79be-4ae0-8f0b-d76b6aa9e8d2" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Velocity Payment System' /&gt;" SearchSteps="FuzzySelector, CV" Version="V2" Visibility="Interactive">
+      <imageRef attrName="InformativeScreenshot" originalValue="b5c9123e9b4d3621e7dd81e1b6a39905.png" xmlns="">02P7FGYHGOEeyHXHTS-OCsQ</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">TypeInto</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>
