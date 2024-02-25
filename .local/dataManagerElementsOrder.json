@@ -197,6 +197,18 @@
       ],
       "ConstantsSectionElementsOrder": null,
       "AddedNamespaces": null
+    },
+    {
+      "Path": "SetDataFunctions/TestExcelAccNum-Library.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [
+        "libName&Sequence_3"
+      ],
+      "ArgumentsSectionElementsOrder": [
+        "inCurrentRow"
+      ],
+      "ConstantsSectionElementsOrder": null,
+      "AddedNamespaces": null
     }
   ]
 }

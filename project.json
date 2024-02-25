@@ -4,6 +4,7 @@
   "description": "Blank Library",
   "main": "NewActivity.xaml",
   "dependencies": {
+    "UiPath.Excel.Activities": "2.22.3",
     "UiPath.System.Activities": "23.10.5",
     "UiPath.UIAutomation.Activities": "23.10.8",
     "VPS-OR2.Descriptors": "1.0.4"
@@ -12,7 +13,7 @@
   "entitiesStores": [],
   "schemaVersion": "4.0",
   "studioVersion": "23.12.0.0",
-  "projectVersion": "1.0.57",
+  "projectVersion": "1.0.62",
   "runtimeOptions": {
     "autoDispose": false,
     "netFrameworkLazyLoading": false,
