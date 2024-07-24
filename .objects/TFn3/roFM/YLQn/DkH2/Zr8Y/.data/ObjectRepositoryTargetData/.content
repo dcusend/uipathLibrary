@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="zx9zEviFg0mqxXtuduOftg" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="https://qa.velocitypayment.com/vbills/mbills/login.go?action=billLookupForGuestPay" CvTextArea="851, 480, 61, 16" CvTextArgument="Month..." CvType="Text" DesignTimeRectangle="847, 478, 96, 23" DesignTimeScaleFactor="1.5" ElementType="DropDown" FriendlyName="'Month...'" FullSelectorArgument="&lt;webctrl tableRow='2' tag='TABLE' /&gt;&lt;webctrl id='cardExpireMonth' tableRow='5' tag='SELECT' /&gt;" FuzzySelectorArgument="&lt;webctrl tag='TABLE' /&gt;&lt;webctrl id='cardExpireMonth' type='' tag='SELECT' class='' aaname='' /&gt;" Guid="d4dac640-242f-4492-8a93-d0cd7811753e" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Pay Bill - One Time Payment' /&gt;" SearchSteps="FuzzySelector" Version="V2" Visibility="Interactive">
+      <imageRef attrName="InformativeScreenshot" originalValue="c1c8e3d99fdec07c5daec547847b3334.png" xmlns="">0M7MIniBWWk2mixJ68WXC6g</imageRef>
+    </TargetAnchorable>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

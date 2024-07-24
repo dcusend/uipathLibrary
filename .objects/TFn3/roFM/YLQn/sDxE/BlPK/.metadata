@@ -1,0 +1,14 @@
+﻿{
+  "Name": "IMG arrow1",
+  "Type": "Element",
+  "TaxonomyType": "Icon",
+  "Id": "BlPKrvshC0yHs_h8K1JENA",
+  "Reference": "Ymb0GQZvuEKudTYaVyKksQ/BlPKrvshC0yHs_h8K1JENA",
+  "ParentRef": "Ymb0GQZvuEKudTYaVyKksQ/sDxENzOLhU-EtYYzIUysAg",
+  "Created": "2024-07-15T21:27:37.9971431Z",
+  "Updated": "2024-07-15T21:27:37.9971431Z",
+  "CreatedBy": [
+    "UiPath.Platform, Version=23.10.0.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=24.10.3.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

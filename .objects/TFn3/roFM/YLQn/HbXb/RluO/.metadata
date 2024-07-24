@@ -1,0 +1,14 @@
+﻿{
+  "Name": "Susan Lark",
+  "Type": "Element",
+  "TaxonomyType": "Input",
+  "Id": "RluO_tIfEUijqtLRBQQjzQ",
+  "Reference": "Ymb0GQZvuEKudTYaVyKksQ/RluO_tIfEUijqtLRBQQjzQ",
+  "ParentRef": "Ymb0GQZvuEKudTYaVyKksQ/HbXbbp1iL0K_HP7IQUKpJA",
+  "Created": "2024-07-15T21:27:38.0796143Z",
+  "Updated": "2024-07-15T21:27:38.0796143Z",
+  "CreatedBy": [
+    "UiPath.Platform, Version=23.10.0.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=24.10.3.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

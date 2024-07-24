@@ -1,0 +1,13 @@
+﻿{
+  "Name": "Lookup3",
+  "Type": "Element",
+  "TaxonomyType": "Element",
+  "Id": "awYnJqAqq0a8hFKxNw-dVA",
+  "Reference": "Ymb0GQZvuEKudTYaVyKksQ/awYnJqAqq0a8hFKxNw-dVA",
+  "ParentRef": "Ymb0GQZvuEKudTYaVyKksQ/8zaZPoxZZUOt1rXw-gRZ2g",
+  "Created": "2024-07-11T18:21:09.5829717Z",
+  "Updated": "2024-07-11T18:21:09.5829717Z",
+  "CreatedBy": [
+    "UiPath.Platform, Version=23.10.0.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

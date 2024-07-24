@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="MgtjSEXehkWTxf3KV0bYdg" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="https://qa.velocitypayment.com/vbills/mbills/login.go?action=billLookupForGuestPay" CvElementArea="844, 923, 188, 33" CvType="InputBox" DesignTimeRectangle="847, 924, 183, 29" DesignTimeScaleFactor="1.5" ElementType="InputBox" FriendlyName="'INPUT cardAccountNumber'" FullSelectorArgument="&lt;webctrl tableRow='2' tag='TABLE' /&gt;&lt;webctrl id='cardAccountNumber' tableRow='3' tag='INPUT' /&gt;" FuzzySelectorArgument="&lt;webctrl tag='TABLE' /&gt;&lt;webctrl id='cardAccountNumber' type='text' tag='INPUT' class='' aaname='Card Number' /&gt;" Guid="66d1d40f-7b82-4748-a8e4-f026462da2d0" ImageBase64="iVBORw0KGgoAAAANSUhEUgAAALsAAAAhCAYAAACBbdpPAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAAFiUAABYlAUlSJPAAAACTSURBVHhe7dKxDcMwAAPBTK31ZagJYtkLRH8HsGP5nwkRYidD7GQ8Yh9jmB2x3S32twP8q73nb+xC50S/XYudo4mdDLGTIXYyxE6G2MkQOxliJ0PsZIidDLGTIXYyxE6G2MkQOxliJ0PsZIidDLGTIXYyxE6G2MkQOxliJ+M19kXwnGTv+Rb7sg5mJ2z3iB3ONOcFQS17lH7o7skAAAAASUVORK5CYII=" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Pay Bill - One Time Payment' /&gt;" SearchSteps="FuzzySelector, CV" Version="V2" Visibility="Interactive">
+      <imageRef attrName="InformativeScreenshot" originalValue="5bf6887a83cab1b4711033a3637ba998.png" xmlns="">0A-qEnyTJCUOgl6O9EGR_4Q</imageRef>
+    </TargetAnchorable>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

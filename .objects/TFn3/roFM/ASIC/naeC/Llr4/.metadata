@@ -1,0 +1,13 @@
+﻿{
+  "Name": "Pay >>",
+  "Type": "Element",
+  "TaxonomyType": "Button",
+  "Id": "Llr4fvE7xEuzYX0pfw6WzQ",
+  "Reference": "Ymb0GQZvuEKudTYaVyKksQ/Llr4fvE7xEuzYX0pfw6WzQ",
+  "ParentRef": "Ymb0GQZvuEKudTYaVyKksQ/naeCl4I1FEaBMWwCeO5Vag",
+  "Created": "2024-07-12T14:10:32.8719784Z",
+  "Updated": "2024-07-12T14:10:32.8719784Z",
+  "CreatedBy": [
+    "UiPath.Platform, Version=23.10.0.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

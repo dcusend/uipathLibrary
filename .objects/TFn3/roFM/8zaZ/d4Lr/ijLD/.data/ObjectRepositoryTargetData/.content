@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="CvKQgHwG_ky5nEGDMXbVQg" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="https://qa.velocitypayment.com/vbills/mbills/login.go" CvTextArea="1056, 479, 85, 16" CvTextArgument="Select One" CvType="Text" DesignTimeRectangle="1051, 476, 213, 23" DesignTimeScaleFactor="1.5" ElementType="DropDown" FriendlyName="'Select One'" FullSelectorArgument="&lt;webctrl parentid='billLookupForm' tag='TABLE' /&gt;&lt;webctrl id='applicationId' tableRow='1' tag='SELECT' /&gt;" FuzzySelectorArgument="&lt;webctrl parentid='billLookupForm' tag='TABLE' /&gt;&lt;webctrl id='applicationId' type='' tag='SELECT' class='' aaname='' /&gt;" Guid="934ae193-109c-4468-89b0-307e7ab228d2" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Please login' /&gt;" SearchSteps="FuzzySelector" Version="V2" Visibility="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target CvTextArea="1025, 479, 10, 12" CvTextArgument="*" CvType="Text" DesignTimeRectangle="1025, 477, 12, 20" ElementType="Text" FriendlyName="'*'" FullSelectorArgument="&lt;webctrl parentid='billLookupForm' tag='TABLE' /&gt;&lt;webctrl class='requiredField' parentid='billLookupForm' tableRow='1' tag='SPAN' /&gt;" FuzzySelectorArgument="&lt;webctrl parentid='billLookupForm' tag='TABLE' /&gt;&lt;webctrl class='requiredField' parentid='billLookupForm' type='' tag='SPAN' aaname='*' check:innerText='*' /&gt;" ImageBase64="iVBORw0KGgoAAAANSUhEUgAAABAAAAAYCAYAAADzoH0MAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAAFiUAABYlAUlSJPAAAACySURBVDhPY/hPIRg1YNAb8GZDzv9tBjn/L7yACmABGAZ83NXwf++sk//f/0E14O+bk/9P5vf+v/4VqhAK0Az49P/e3DSgJoP/28Ib/h9rjQCy0/4fmdvwf7cVUMwh7f/JS5+gaiEAqxd+vQDZ5gwxCIStnMGuegN0FTrAYcDF/2ebQLbDDIj4f2jVRWIMoIIXYIEIsg0zEBv+X30PVQgFWL0AA2RFI6lg1IBRA/7///8fAJ1JvjYq9QeRAAAAAElFTkSuQmCC" SearchSteps="FuzzySelector, CV" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="e9a68e6af2fb4f3ac721e487b87ad508.png" xmlns="">0YRlOAz7JMUS5R7VKu20KVg</imageRef>
+    </TargetAnchorable>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

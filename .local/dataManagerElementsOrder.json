@@ -236,6 +236,71 @@
       ],
       "ConstantsSectionElementsOrder": null,
       "AddedNamespaces": null
+    },
+    {
+      "Path": "SetDataFunctionsABP/SetDataPaymentEntry.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [],
+      "ArgumentsSectionElementsOrder": [
+        "inBrowserType",
+        "zip",
+        "al1",
+        "expYYYY",
+        "expMM",
+        "cvv",
+        "cardNumber",
+        "nameOnCard",
+        "paymentType",
+        "amountToPay"
+      ],
+      "ConstantsSectionElementsOrder": null,
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "SetDataFunctionsABP/SetDataLookup.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [],
+      "ArgumentsSectionElementsOrder": [
+        "billType",
+        "lookup1",
+        "lookup2",
+        "lookup3"
+      ],
+      "ConstantsSectionElementsOrder": null,
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "SetDataFunctionsABP/SetDataPreviewPage.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [],
+      "ArgumentsSectionElementsOrder": [
+        "inBrowserType"
+      ],
+      "ConstantsSectionElementsOrder": null,
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "VerificationFunctions/VerifyText.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [
+        "out_Result&Sequence_2",
+        "outputTextFound&Sequence_2"
+      ],
+      "ArgumentsSectionElementsOrder": [
+        "inBrowserType",
+        "VP1",
+        "outputTextFound"
+      ],
+      "ConstantsSectionElementsOrder": null,
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "NewActivity.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [],
+      "ArgumentsSectionElementsOrder": [],
+      "ConstantsSectionElementsOrder": null,
+      "AddedNamespaces": null
     }
   ]
 }

@@ -1,0 +1,12 @@
+﻿{
+  "Name": "Payment Receipt Page",
+  "Type": "Screen",
+  "Id": "XSR8JsjzSUyHvb-zDZhfCg",
+  "Reference": "Ymb0GQZvuEKudTYaVyKksQ/XSR8JsjzSUyHvb-zDZhfCg",
+  "ParentRef": "Ymb0GQZvuEKudTYaVyKksQ/roFM80xRvkufzQ8ZAwtj4Q",
+  "Created": "2024-07-17T12:19:27.6110933Z",
+  "Updated": "2024-07-17T12:19:27.6110933Z",
+  "CreatedBy": [
+    "UiPath.Platform, Version=24.10.3.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

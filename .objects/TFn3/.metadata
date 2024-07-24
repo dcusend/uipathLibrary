@@ -1,0 +1,14 @@
+﻿{
+  "Name": "ABP Pages",
+  "Type": "App",
+  "Id": "TFn3XNaze0mnbP3l4ttAKg",
+  "Reference": "Ymb0GQZvuEKudTYaVyKksQ/TFn3XNaze0mnbP3l4ttAKg",
+  "Created": "2024-07-11T18:11:48.3967306Z",
+  "Updated": "2024-07-12T14:10:32.8552777Z",
+  "CreatedBy": [
+    "UiPath.Platform, Version=23.10.0.0, Culture=neutral, PublicKeyToken=null"
+  ],
+  "UpdatedBy": [
+    "UiPath.Platform, Version=23.10.0.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

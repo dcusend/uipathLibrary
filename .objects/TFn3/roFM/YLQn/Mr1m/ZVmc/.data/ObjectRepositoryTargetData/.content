@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="DtH1AK-3REOrOMc7Eyi-VA" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="https://qa.velocitypayment.com/vbills/mbills/login.go?action=billLookupForGuestPay" CvTextArea="554, 707, 85, 16" CvTextArgument="Select One" CvType="Text" DesignTimeRectangle="549, 704, 178, 23" DesignTimeScaleFactor="1.5" ElementType="DropDown" FriendlyName="'Select One'" FullSelectorArgument="&lt;webctrl css-selector='body&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;form&amp;gt;div&amp;gt;table' parentid='billListForm' tag='TABLE' /&gt;&lt;webctrl id='selectedPaymentMethod' tableRow='1' tag='SELECT' /&gt;" FuzzySelectorArgument="&lt;webctrl parentid='billListForm' tag='TABLE' /&gt;&lt;webctrl id='selectedPaymentMethod' type='' tag='SELECT' class='' aaname='' /&gt;" Guid="b4af911a-e244-4543-b097-64f837c18401" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Pay Bill - One Time Payment' /&gt;" SearchSteps="FuzzySelector" Version="V2" Visibility="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target CvTextArea="531, 707, 10, 10" CvTextArgument="*" CvType="Text" DesignTimeRectangle="532, 704, 11, 20" ElementType="Text" FriendlyName="'*'" FullSelectorArgument="&lt;webctrl css-selector='body&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;form&amp;gt;div&amp;gt;table' parentid='billListForm' tag='TABLE' /&gt;&lt;webctrl class='requiredField' parentid='billListForm' tableRow='1' tag='SPAN' /&gt;" FuzzySelectorArgument="&lt;webctrl parentid='billListForm' tag='TABLE' /&gt;&lt;webctrl class='requiredField' parentid='billListForm' type='' tag='SPAN' aaname='*' check:innerText='*' /&gt;" ImageBase64="iVBORw0KGgoAAAANSUhEUgAAAA8AAAAYCAYAAAAlBadpAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAAFiUAABYlAUlSJPAAAACASURBVDhPY/hPARjVTCKgleY3/y9kG/w/dg7KxQJQNb9Y/3+vQe//O2AOSHPO/wsvwJz/bzbk/N/WfxHCgQIMm8GKDEA2wjRf/H8MyN8GNxQBcDgbpgGCcTmdKM17N7yBiqMCIpwNCTjCzqY0wBAAYiPxUUUiGNVMIhiSmv//BwAWZ228G92wMAAAAABJRU5ErkJggg==" SearchSteps="FuzzySelector, CV" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="63b08fc8af856cc2b09e968763f0ea4b.png" xmlns="">08gM-pyNyhEq87cSPcim-fg</imageRef>
+    </TargetAnchorable>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

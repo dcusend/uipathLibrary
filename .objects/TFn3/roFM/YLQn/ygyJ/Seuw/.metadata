@@ -1,0 +1,14 @@
+﻿{
+  "Name": "INPUT cardAccountNumber",
+  "Type": "Element",
+  "TaxonomyType": "Input",
+  "Id": "SeuwqKYEKE-4Edr8Df5coQ",
+  "Reference": "Ymb0GQZvuEKudTYaVyKksQ/SeuwqKYEKE-4Edr8Df5coQ",
+  "ParentRef": "Ymb0GQZvuEKudTYaVyKksQ/ygyJG1LKgk-ImxCKo6rGiw",
+  "Created": "2024-07-15T21:27:37.9868838Z",
+  "Updated": "2024-07-15T21:27:37.9868838Z",
+  "CreatedBy": [
+    "UiPath.Platform, Version=23.10.0.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=24.10.3.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

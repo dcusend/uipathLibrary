@@ -1,0 +1,15 @@
+﻿{
+  "Name": "Payment Preview Page",
+  "Type": "Screen",
+  "Id": "ASICdy1GVUqBQoMj9INAPA",
+  "Reference": "Ymb0GQZvuEKudTYaVyKksQ/ASICdy1GVUqBQoMj9INAPA",
+  "ParentRef": "Ymb0GQZvuEKudTYaVyKksQ/roFM80xRvkufzQ8ZAwtj4Q",
+  "Created": "2024-07-12T14:09:46.2542145Z",
+  "Updated": "2024-07-12T14:09:51.7784477Z",
+  "CreatedBy": [
+    "UiPath.Platform, Version=23.10.0.0, Culture=neutral, PublicKeyToken=null"
+  ],
+  "UpdatedBy": [
+    "UiPath.Platform, Version=23.10.0.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

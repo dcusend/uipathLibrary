@@ -1,0 +1,13 @@
+﻿{
+  "Name": "BillType",
+  "Type": "Element",
+  "TaxonomyType": "Element",
+  "Id": "d4LrKP_G0ESkhlIm2z4k3w",
+  "Reference": "Ymb0GQZvuEKudTYaVyKksQ/d4LrKP_G0ESkhlIm2z4k3w",
+  "ParentRef": "Ymb0GQZvuEKudTYaVyKksQ/8zaZPoxZZUOt1rXw-gRZ2g",
+  "Created": "2024-07-11T18:17:41.2449685Z",
+  "Updated": "2024-07-11T18:17:41.2449685Z",
+  "CreatedBy": [
+    "UiPath.Platform, Version=23.10.0.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

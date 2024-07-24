@@ -1,0 +1,14 @@
+﻿{
+  "Name": "Next_btn",
+  "Type": "Element",
+  "TaxonomyType": "Element",
+  "Id": "dfAP-i2A7kq8IRnlZLvPAA",
+  "Reference": "Ymb0GQZvuEKudTYaVyKksQ/dfAP-i2A7kq8IRnlZLvPAA",
+  "ParentRef": "Ymb0GQZvuEKudTYaVyKksQ/YLQng2nGiECzKgI_CPrqGw",
+  "Created": "2024-07-15T21:27:38.0862739Z",
+  "Updated": "2024-07-15T21:27:38.0862739Z",
+  "CreatedBy": [
+    "UiPath.Platform, Version=23.10.0.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=24.10.3.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

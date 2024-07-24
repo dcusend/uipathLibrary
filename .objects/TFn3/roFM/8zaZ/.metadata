@@ -1,0 +1,15 @@
+﻿{
+  "Name": "ABP Login Screen",
+  "Type": "Screen",
+  "Id": "8zaZPoxZZUOt1rXw-gRZ2g",
+  "Reference": "Ymb0GQZvuEKudTYaVyKksQ/8zaZPoxZZUOt1rXw-gRZ2g",
+  "ParentRef": "Ymb0GQZvuEKudTYaVyKksQ/roFM80xRvkufzQ8ZAwtj4Q",
+  "Created": "2024-07-11T18:13:25.4318418Z",
+  "Updated": "2024-07-11T18:21:09.5421844Z",
+  "CreatedBy": [
+    "UiPath.Platform, Version=23.10.0.0, Culture=neutral, PublicKeyToken=null"
+  ],
+  "UpdatedBy": [
+    "UiPath.Platform, Version=23.10.0.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

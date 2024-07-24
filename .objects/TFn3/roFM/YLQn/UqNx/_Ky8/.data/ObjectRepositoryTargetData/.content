@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="WqSdnd04PE-A62bz5Mybpg" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="https://qa.velocitypayment.com/vbills/mbills/login.go?action=billLookupForGuestPay" CvElementArea="844, 983, 87, 33" CvType="InputBox" DesignTimeRectangle="847, 985, 83, 29" DesignTimeScaleFactor="1.5" ElementType="InputBox" FriendlyName="'INPUT cvv'" FullSelectorArgument="&lt;webctrl tableRow='2' tag='TABLE' /&gt;&lt;webctrl id='cvv' tableRow='4' tag='INPUT' /&gt;" FuzzySelectorArgument="&lt;webctrl tag='TABLE' /&gt;&lt;webctrl id='cvv' type='text' tag='INPUT' class='' aaname='CVV' /&gt;" Guid="d2b622b1-2c64-4765-8a77-5cdb79193818" ImageBase64="iVBORw0KGgoAAAANSUhEUgAAAFcAAAAhCAYAAACsszewAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAAFiUAABYlAUlSJPAAAACDSURBVGhD7dAxDsIwAARBXu3vG7lBxEmBQrabka67al+TjLghcUOnuGMMu7ndIe7Vgd/t/T5xhX3Gd0dxHyZuSNyQuCFxQ+KGxA2JGxI3JG5I3JC4IXFD4obEDYkbEjckbkjckLghcUPihsQNiRu6jLsI/J+93yHusg52b7tTXJ4y5xtS7V1OPtfT7gAAAABJRU5ErkJggg==" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Pay Bill - One Time Payment' /&gt;" SearchSteps="FuzzySelector, CV" Version="V2" Visibility="Interactive">
+      <imageRef attrName="InformativeScreenshot" originalValue="358b33a227aa5a65f150face9d54a6b3.png" xmlns="">0c7n6DDmQ4UWzF4BHF-Mjfw</imageRef>
+    </TargetAnchorable>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

@@ -1,0 +1,15 @@
+﻿{
+  "Name": "Guest Pay CC Payment Entry Page",
+  "Type": "Screen",
+  "Id": "YLQng2nGiECzKgI_CPrqGw",
+  "Reference": "Ymb0GQZvuEKudTYaVyKksQ/YLQng2nGiECzKgI_CPrqGw",
+  "ParentRef": "Ymb0GQZvuEKudTYaVyKksQ/roFM80xRvkufzQ8ZAwtj4Q",
+  "Created": "2024-07-15T21:27:37.955591Z",
+  "Updated": "2024-07-19T22:10:15.7259964Z",
+  "CreatedBy": [
+    "UiPath.Platform, Version=24.10.3.0, Culture=neutral, PublicKeyToken=null"
+  ],
+  "UpdatedBy": [
+    "UiPath.Platform, Version=24.10.3.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

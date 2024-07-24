@@ -1,0 +1,13 @@
+﻿{
+  "Name": "Pay_btn",
+  "Type": "Element",
+  "TaxonomyType": "Element",
+  "Id": "naeCl4I1FEaBMWwCeO5Vag",
+  "Reference": "Ymb0GQZvuEKudTYaVyKksQ/naeCl4I1FEaBMWwCeO5Vag",
+  "ParentRef": "Ymb0GQZvuEKudTYaVyKksQ/ASICdy1GVUqBQoMj9INAPA",
+  "Created": "2024-07-12T14:10:32.8598475Z",
+  "Updated": "2024-07-12T14:10:32.8598475Z",
+  "CreatedBy": [
+    "UiPath.Platform, Version=23.10.0.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

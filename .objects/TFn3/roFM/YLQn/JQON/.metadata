@@ -1,0 +1,14 @@
+﻿{
+  "Name": "ExpYYYY",
+  "Type": "Element",
+  "TaxonomyType": "Element",
+  "Id": "JQON3P75pU-rwL6cRnEccw",
+  "Reference": "Ymb0GQZvuEKudTYaVyKksQ/JQON3P75pU-rwL6cRnEccw",
+  "ParentRef": "Ymb0GQZvuEKudTYaVyKksQ/YLQng2nGiECzKgI_CPrqGw",
+  "Created": "2024-07-15T21:27:38.0686714Z",
+  "Updated": "2024-07-15T21:27:38.0686714Z",
+  "CreatedBy": [
+    "UiPath.Platform, Version=23.10.0.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=24.10.3.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

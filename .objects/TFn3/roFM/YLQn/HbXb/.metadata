@@ -1,0 +1,14 @@
+﻿{
+  "Name": "NameOnCard",
+  "Type": "Element",
+  "TaxonomyType": "Element",
+  "Id": "HbXbbp1iL0K_HP7IQUKpJA",
+  "Reference": "Ymb0GQZvuEKudTYaVyKksQ/HbXbbp1iL0K_HP7IQUKpJA",
+  "ParentRef": "Ymb0GQZvuEKudTYaVyKksQ/YLQng2nGiECzKgI_CPrqGw",
+  "Created": "2024-07-15T21:27:38.0777896Z",
+  "Updated": "2024-07-15T21:27:38.0777896Z",
+  "CreatedBy": [
+    "UiPath.Platform, Version=23.10.0.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=24.10.3.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

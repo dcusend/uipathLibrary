@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="36VaoxCtbkCobGmj-AhHBQ" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="https://qa.velocitypayment.com/vbills/mbills/login.go" CvElementArea="1062, 536, 221, 34" CvType="InputBox" DesignTimeRectangle="1064, 538, 217, 29" DesignTimeScaleFactor="1.5" ElementType="InputBox" FriendlyName="'INPUT lookupValue1'" FullSelectorArgument="&lt;webctrl tableRow='3' tag='TABLE' /&gt;&lt;webctrl id='lookupValue1' tableRow='1' tag='INPUT' /&gt;" FuzzySelectorArgument="&lt;webctrl tag='TABLE' /&gt;&lt;webctrl id='lookupValue1' type='text' tag='INPUT' class='' aaname='485lookup1' /&gt;" Guid="c4f9f198-082b-4ac9-a818-6bd97c85df31" ImageBase64="iVBORw0KGgoAAAANSUhEUgAAAN0AAAAhCAYAAABdlK54AAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAAFiUAABYlAUlSJPAAAACYSURBVHhe7dMxDoMwAATBvNrfB7mJgqGL2WpGuu7a/RxASnQQEx3EbtGNMcxs41aX6J4OwH/Wrr7RCQ7e89uX6CAgOoiJDmKig5joICY6iIkOYqKDmOggJjqIiQ5iooOY6CAmOoiJDmKig5joICY6iIkOYqKDmOggJjqIiQ5iooPYY3ST8GC/tatLdNM8mNm+rW7RAW86jhNLE4Xfh874gAAAAABJRU5ErkJggg==" IsResponsive="True" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Please login' /&gt;" SearchSteps="FuzzySelector, CV" Version="V2" Visibility="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target CvTextArea="1043, 545, 12, 10" CvTextArgument="*" CvType="Text" DesignTimeRectangle="919, 542, 136, 21" ElementType="Text" FriendlyName="'*'" FullSelectorArgument="&lt;webctrl tableRow='3' tag='TABLE' /&gt;&lt;webctrl class='requiredField' tableRow='1' tag='SPAN' /&gt;" FuzzySelectorArgument="&lt;webctrl tag='TABLE' /&gt;&lt;webctrl class='requiredField' type='' tag='SPAN' aaname='*' check:innerText='*' /&gt;" ImageBase64="iVBORw0KGgoAAAANSUhEUgAAABAAAAAYCAYAAADzoH0MAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAAFiUAABYlAUlSJPAAAACySURBVDhPY/hPIRg1YNAb8GZDzv9tBjn/L7yACmABGAZ83NXwf++sk//f/0E14O+bk/9P5vf+v/4VqhAK0Az49P/e3DSgJoP/28Ib/h9rjQCy0/4fmdvwf7cVUMwh7f/JS5+gaiEAqxd+vQDZ5gwxCIStnMGuegN0FTrAYcDF/2ebQLbDDIj4f2jVRWIMoIIXYIEIsg0zEBv+X30PVQgFWL0AA2RFI6lg1IBRA/7///8fAJ1JvjYq9QeRAAAAAElFTkSuQmCC" SearchSteps="FuzzySelector, CV" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="a9fa08edc3c363473972b5aedada649c.png" xmlns="">07uVj39gJbkWK-sYsp3cZOg</imageRef>
+    </TargetAnchorable>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>
