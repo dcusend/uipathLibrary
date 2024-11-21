@@ -287,18 +287,11 @@
         "outputTextFound&Sequence_2"
       ],
       "ArgumentsSectionElementsOrder": [
+        "VP",
+        "save_output",
         "inBrowserType",
-        "VP1",
         "outputTextFound"
       ],
-      "ConstantsSectionElementsOrder": null,
-      "AddedNamespaces": null
-    },
-    {
-      "Path": "NewActivity.xaml",
-      "SortBy": 0,
-      "VariablesSectionElementsOrder": [],
-      "ArgumentsSectionElementsOrder": [],
       "ConstantsSectionElementsOrder": null,
       "AddedNamespaces": null
     }

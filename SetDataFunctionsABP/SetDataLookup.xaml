@@ -9,7 +9,7 @@
     <x:Null />
   </VisualBasic.Settings>
   <sap2010:Annotation.AnnotationText>UPTF00000088eyI8SGVscExpbms+a19fQmFja2luZ0ZpZWxkIjpudWxsLCI8SW5pdGlhbFRvb2x0aXA+a19fQmFja2luZ0ZpZWxkIjpudWxsLCI8VmVyc2lvbj5rX19CYWNraW5nRmllbGQiOjF9</sap2010:Annotation.AnnotationText>
-  <sap:VirtualizedContainerService.HintSize>602,1894</sap:VirtualizedContainerService.HintSize>
+  <sap:VirtualizedContainerService.HintSize>540.6666666666666,1864.6666666666667</sap:VirtualizedContainerService.HintSize>
   <sap2010:WorkflowViewState.IdRef>SetDataLookup_1</sap2010:WorkflowViewState.IdRef>
   <TextExpression.NamespacesForImplementation>
     <sco:Collection x:TypeArguments="x:String">
@@ -108,27 +108,27 @@
       <AssemblyReference>WindowsBase</AssemblyReference>
     </sco:Collection>
   </TextExpression.ReferencesForImplementation>
-  <Sequence DisplayName="SetDataLookup" sap:VirtualizedContainerService.HintSize="584.6666666666666,1829.3333333333333" sap2010:WorkflowViewState.IdRef="Sequence_1">
+  <Sequence DisplayName="SetDataLookup" sap:VirtualizedContainerService.HintSize="550.6666666666666,1800" sap2010:WorkflowViewState.IdRef="Sequence_1">
     <sap:WorkflowViewStateService.ViewState>
       <scg:Dictionary x:TypeArguments="x:String, x:Object">
         <x:Boolean x:Key="IsExpanded">True</x:Boolean>
       </scg:Dictionary>
     </sap:WorkflowViewStateService.ViewState>
-    <TryCatch DisplayName="Try Catch" sap:VirtualizedContainerService.HintSize="522.6666666666666,1718.6666666666667" sap2010:WorkflowViewState.IdRef="TryCatch_1">
+    <TryCatch DisplayName="Try Catch" sap:VirtualizedContainerService.HintSize="488.6666666666667,1712" sap2010:WorkflowViewState.IdRef="TryCatch_1">
       <TryCatch.Try>
-        <uix:NApplicationCard AttachMode="ByInstance" CloseMode="Never" DisplayName="ABP Login Screen" sap:VirtualizedContainerService.HintSize="484,1479.3333333333333" sap2010:WorkflowViewState.IdRef="NApplicationCard_3" InteractionMode="DebuggerApi" ScopeGuid="3182039c-d9f5-466e-b9ab-dc3b2060dd0d" Version="V2">
+        <uix:NApplicationCard AttachMode="ByInstance" DisplayName="ABP Login Screen" sap:VirtualizedContainerService.HintSize="450,1450" sap2010:WorkflowViewState.IdRef="NApplicationCard_3" InteractionMode="DebuggerApi" ScopeGuid="3182039c-d9f5-466e-b9ab-dc3b2060dd0d" Version="V2" WebDriverMode="Headless">
           <uix:NApplicationCard.Body>
             <ActivityAction x:TypeArguments="x:Object">
               <ActivityAction.Argument>
                 <DelegateInArgument x:TypeArguments="x:Object" Name="WSSessionData" />
               </ActivityAction.Argument>
-              <Sequence DisplayName="Do" sap:VirtualizedContainerService.HintSize="450,1260" sap2010:WorkflowViewState.IdRef="Sequence_4">
+              <Sequence DisplayName="Do" sap:VirtualizedContainerService.HintSize="416,1230.6666666666667" sap2010:WorkflowViewState.IdRef="Sequence_4">
                 <sap:WorkflowViewStateService.ViewState>
                   <scg:Dictionary x:TypeArguments="x:String, x:Object">
                     <x:Boolean x:Key="IsExpanded">True</x:Boolean>
                   </scg:Dictionary>
                 </sap:WorkflowViewStateService.ViewState>
-                <uix:NSelectItem DisplayName="Select Item '*' ()" sap:VirtualizedContainerService.HintSize="388,159.33333333333334" sap2010:WorkflowViewState.IdRef="NSelectItem_1" Item="[billType]" ScopeIdentifier="3182039c-d9f5-466e-b9ab-dc3b2060dd0d" Version="V3">
+                <uix:NSelectItem DisplayName="Select Item '*' ()" sap:VirtualizedContainerService.HintSize="354,191.33333333333334" sap2010:WorkflowViewState.IdRef="NSelectItem_1" Item="[billType]" ScopeIdentifier="3182039c-d9f5-466e-b9ab-dc3b2060dd0d" Version="V3">
                   <uix:NSelectItem.Target>
                     <uix:TargetAnchorable BrowserURL="https://qa.velocitypayment.com/vbills/mbills/login.go" ContentHash="CvKQgHwG_ky5nEGDMXbVQg" CvTextArea="1056, 479, 85, 16" CvTextArgument="Select One" CvType="Text" DesignTimeRectangle="1051, 476, 213, 23" DesignTimeScaleFactor="1.5" ElementType="DropDown" FriendlyName="'*'" FullSelectorArgument="&lt;webctrl parentid='billLookupForm' tag='TABLE' /&gt;&lt;webctrl id='applicationId' tableRow='1' tag='SELECT' /&gt;" FuzzySelectorArgument="&lt;webctrl parentid='billLookupForm' tag='TABLE' /&gt;&lt;webctrl id='applicationId' type='' tag='SELECT' class='' aaname='' /&gt;" Guid="934ae193-109c-4468-89b0-307e7ab228d2" InformativeScreenshot="e9a68e6af2fb4f3ac721e487b87ad508.png" Reference="Ymb0GQZvuEKudTYaVyKksQ/ijLDWRkeP0aHndmwIL4Y3w" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Please login' /&gt;" SearchSteps="FuzzySelector" Version="V2" Visibility="Interactive">
                       <uix:TargetAnchorable.Anchors>
@@ -139,7 +139,7 @@
                     </uix:TargetAnchorable>
                   </uix:NSelectItem.Target>
                 </uix:NSelectItem>
-                <uix:NTypeInto ActivateBefore="True" ClickBeforeMode="Single" DisplayName="Type Into '*' ()" EmptyFieldMode="SingleLine" sap:VirtualizedContainerService.HintSize="388,222.66666666666666" sap2010:WorkflowViewState.IdRef="NTypeInto_1" ScopeIdentifier="3182039c-d9f5-466e-b9ab-dc3b2060dd0d" Text="[lookup1]" Version="V3">
+                <uix:NTypeInto ActivateBefore="True" ClickBeforeMode="Single" DisplayName="Type Into '*' ()" EmptyFieldMode="SingleLine" sap:VirtualizedContainerService.HintSize="354,254.66666666666666" sap2010:WorkflowViewState.IdRef="NTypeInto_1" ScopeIdentifier="3182039c-d9f5-466e-b9ab-dc3b2060dd0d" Text="[lookup1]" Version="V3">
                   <uix:NTypeInto.Target>
                     <uix:TargetAnchorable BrowserURL="https://qa.velocitypayment.com/vbills/mbills/login.go" ContentHash="36VaoxCtbkCobGmj-AhHBQ" CvElementArea="1062, 536, 221, 34" CvType="InputBox" DesignTimeRectangle="1064, 538, 217, 29" DesignTimeScaleFactor="1.5" ElementType="InputBox" FriendlyName="'*'" FullSelectorArgument="&lt;webctrl tableRow='3' tag='TABLE' /&gt;&lt;webctrl id='lookupValue1' tableRow='1' tag='INPUT' /&gt;" FuzzySelectorArgument="&lt;webctrl tag='TABLE' /&gt;&lt;webctrl id='lookupValue1' type='text' tag='INPUT' class='' aaname='485lookup1' /&gt;" Guid="c4f9f198-082b-4ac9-a818-6bd97c85df31" ImageBase64="iVBORw0KGgoAAAANSUhEUgAAAN0AAAAhCAYAAABdlK54AAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAAFiUAABYlAUlSJPAAAACYSURBVHhe7dMxDoMwAATBvNrfB7mJgqGL2WpGuu7a/RxASnQQEx3EbtGNMcxs41aX6J4OwH/Wrr7RCQ7e89uX6CAgOoiJDmKig5joICY6iIkOYqKDmOggJjqIiQ5iooOY6CAmOoiJDmKig5joICY6iIkOYqKDmOggJjqIiQ5iooPYY3ST8GC/tatLdNM8mNm+rW7RAW86jhNLE4Xfh874gAAAAABJRU5ErkJggg==" InformativeScreenshot="a9fa08edc3c363473972b5aedada649c.png" IsResponsive="True" Reference="Ymb0GQZvuEKudTYaVyKksQ/ZaxQO4EK0EqMGfeD-ricRw" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Please login' /&gt;" SearchSteps="FuzzySelector, CV" Version="V2" Visibility="Interactive">
                       <uix:TargetAnchorable.Anchors>
@@ -150,7 +150,7 @@
                     </uix:TargetAnchorable>
                   </uix:NTypeInto.Target>
                 </uix:NTypeInto>
-                <uix:NTypeInto ActivateBefore="True" ClickBeforeMode="Single" DisplayName="Type Into '*' ()" EmptyFieldMode="SingleLine" sap:VirtualizedContainerService.HintSize="388,222.66666666666666" sap2010:WorkflowViewState.IdRef="NTypeInto_2" ScopeIdentifier="3182039c-d9f5-466e-b9ab-dc3b2060dd0d" Text="[lookup2]" Version="V3">
+                <uix:NTypeInto ActivateBefore="True" ClickBeforeMode="Single" DisplayName="Type Into '*' ()" EmptyFieldMode="SingleLine" sap:VirtualizedContainerService.HintSize="354,254.66666666666666" sap2010:WorkflowViewState.IdRef="NTypeInto_2" ScopeIdentifier="3182039c-d9f5-466e-b9ab-dc3b2060dd0d" Text="[lookup2]" Version="V3">
                   <uix:NTypeInto.Target>
                     <uix:TargetAnchorable BrowserURL="https://qa.velocitypayment.com/vbills/mbills/login.go" ContentHash="EoYOWZ2Oo0m_YFKWorztfg" CvElementArea="1062, 574, 221, 34" CvType="InputBox" DesignTimeRectangle="1064, 576, 217, 29" DesignTimeScaleFactor="1.5" ElementType="InputBox" FriendlyName="'*'" FullSelectorArgument="&lt;webctrl tableRow='3' tag='TABLE' /&gt;&lt;webctrl id='lookupValue2' tableRow='2' tag='INPUT' /&gt;" FuzzySelectorArgument="&lt;webctrl tag='TABLE' /&gt;&lt;webctrl id='lookupValue2' type='text' tag='INPUT' class='' aaname='485lookup2' /&gt;" Guid="d0354903-86a7-4329-abab-6c57c36026c5" ImageBase64="iVBORw0KGgoAAAANSUhEUgAAAN0AAAAhCAYAAABdlK54AAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAAFiUAABYlAUlSJPAAAACYSURBVHhe7dMxDoMwAATBvNrfB7mJgqGL2WpGuu7a/RxASnQQEx3EbtGNMcxs41aX6J4OwH/Wrr7RCQ7e89uX6CAgOoiJDmKig5joICY6iIkOYqKDmOggJjqIiQ5iooOY6CAmOoiJDmKig5joICY6iIkOYqKDmOggJjqIiQ5iooPYY3ST8GC/tatLdNM8mNm+rW7RAW86jhNLE4Xfh874gAAAAABJRU5ErkJggg==" InformativeScreenshot="07a7071554e03299feebebdd5dae34f6.png" IsResponsive="True" Reference="Ymb0GQZvuEKudTYaVyKksQ/Hd7qnYDqGUK3BoCQNpdqQw" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Please login' /&gt;" SearchSteps="FuzzySelector, CV" Version="V2" Visibility="Interactive">
                       <uix:TargetAnchorable.Anchors>
@@ -161,7 +161,7 @@
                     </uix:TargetAnchorable>
                   </uix:NTypeInto.Target>
                 </uix:NTypeInto>
-                <uix:NTypeInto ActivateBefore="True" ClickBeforeMode="Single" DisplayName="Type Into '*' ()" EmptyFieldMode="SingleLine" sap:VirtualizedContainerService.HintSize="388,222.66666666666666" sap2010:WorkflowViewState.IdRef="NTypeInto_3" ScopeIdentifier="3182039c-d9f5-466e-b9ab-dc3b2060dd0d" Text="[lookup3]" Version="V3">
+                <uix:NTypeInto ActivateBefore="True" ClickBeforeMode="Single" DisplayName="Type Into '*' ()" EmptyFieldMode="SingleLine" sap:VirtualizedContainerService.HintSize="354,254.66666666666666" sap2010:WorkflowViewState.IdRef="NTypeInto_3" ScopeIdentifier="3182039c-d9f5-466e-b9ab-dc3b2060dd0d" Text="[lookup3]" Version="V3">
                   <uix:NTypeInto.Target>
                     <uix:TargetAnchorable BrowserURL="https://qa.velocitypayment.com/vbills/mbills/login.go" ContentHash="EynHYJC9D0CCJvSt74cVZQ" CvElementArea="1061, 612, 221, 33" CvType="InputBox" DesignTimeRectangle="1064, 614, 217, 29" DesignTimeScaleFactor="1.5" ElementType="InputBox" FriendlyName="'*'" FullSelectorArgument="&lt;webctrl tableRow='3' tag='TABLE' /&gt;&lt;webctrl id='lookupValue3' tableRow='3' tag='INPUT' /&gt;" FuzzySelectorArgument="&lt;webctrl tag='TABLE' /&gt;&lt;webctrl id='lookupValue3' type='text' tag='INPUT' class='' aaname='485lookup3' /&gt;" Guid="6543c2d9-2aa1-4cbf-95fd-c83201b826f7" ImageBase64="iVBORw0KGgoAAAANSUhEUgAAAN0AAAAhCAYAAABdlK54AAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAAFiUAABYlAUlSJPAAAACYSURBVHhe7dMxDoMwAATBvNrfB7mJgqGL2WpGuu7a/RxASnQQEx3EbtGNMcxs41aX6J4OwH/Wrr7RCQ7e89uX6CAgOoiJDmKig5joICY6iIkOYqKDmOggJjqIiQ5iooOY6CAmOoiJDmKig5joICY6iIkOYqKDmOggJjqIiQ5iooPYY3ST8GC/tatLdNM8mNm+rW7RAW86jhNLE4Xfh874gAAAAABJRU5ErkJggg==" InformativeScreenshot="b5595fb6277f90abba9dd3b666d87154.png" IsResponsive="True" Reference="Ymb0GQZvuEKudTYaVyKksQ/Btl4TsxOS0KXbNfTSYRAbA" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Please login' /&gt;" SearchSteps="FuzzySelector, CV" Version="V2" Visibility="Interactive">
                       <uix:TargetAnchorable.Anchors>
@@ -172,7 +172,7 @@
                     </uix:TargetAnchorable>
                   </uix:NTypeInto.Target>
                 </uix:NTypeInto>
-                <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'Pay as a Guest'" sap:VirtualizedContainerService.HintSize="388,159.33333333333334" sap2010:WorkflowViewState.IdRef="NClick_1" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="3182039c-d9f5-466e-b9ab-dc3b2060dd0d" Version="V3">
+                <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'Pay as a Guest'" sap:VirtualizedContainerService.HintSize="354,184.66666666666666" sap2010:WorkflowViewState.IdRef="NClick_1" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="3182039c-d9f5-466e-b9ab-dc3b2060dd0d" Version="V3">
                   <uix:NClick.Target>
                     <uix:TargetAnchorable BrowserURL="https://qa.velocitypayment.com/vbills/mbills/login.go" ContentHash="VCUBhQvEpUK-ts-Cmgtutg" CvElementArea="1137, 687, 143, 34" CvTextArea="1146, 695, 124, 21" CvTextArgument="Pay as a Guest" CvType="Button" DesignTimeRectangle="1141, 690, 137, 29" DesignTimeScaleFactor="1.5" ElementType="Button" FullSelectorArgument="&lt;webctrl tableRow='3' tag='TABLE' /&gt;&lt;webctrl id='guestBillSubmitBtn' tableRow='4' tag='INPUT' /&gt;" FuzzySelectorArgument="&lt;webctrl tag='TABLE' /&gt;&lt;webctrl id='guestBillSubmitBtn' type='button' tag='INPUT' class='' aaname='Pay as a Guest' check:text='Pay as a Guest' /&gt;" Guid="69daa9e2-3ecd-438f-9f78-266ed87c7628" ImageBase64="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" InformativeScreenshot="00d53981a5d8a4280334945abea21214.png" Reference="Ymb0GQZvuEKudTYaVyKksQ/CidkW8o4YUa6iKHSDWXqFw" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Please login' /&gt;" SearchSteps="FuzzySelector, CV" Version="V2" Visibility="Interactive" />
                   </uix:NClick.Target>
@@ -186,7 +186,7 @@
         </uix:NApplicationCard>
       </TryCatch.Try>
       <TryCatch.Catches>
-        <Catch x:TypeArguments="s:Exception" sap:VirtualizedContainerService.HintSize="488.6666666666667,22" sap2010:WorkflowViewState.IdRef="Catch`1_1">
+        <Catch x:TypeArguments="s:Exception" sap:VirtualizedContainerService.HintSize="454.6666666666667,23.333333333333332" sap2010:WorkflowViewState.IdRef="Catch`1_1">
           <sap:WorkflowViewStateService.ViewState>
             <scg:Dictionary x:TypeArguments="x:String, x:Object">
               <x:Boolean x:Key="IsExpanded">False</x:Boolean>
@@ -197,13 +197,13 @@
             <ActivityAction.Argument>
               <DelegateInArgument x:TypeArguments="s:Exception" Name="exception" />
             </ActivityAction.Argument>
-            <Sequence sap:VirtualizedContainerService.HintSize="450,278" sap2010:WorkflowViewState.IdRef="Sequence_5">
+            <Sequence sap:VirtualizedContainerService.HintSize="450,232.66666666666666" sap2010:WorkflowViewState.IdRef="Sequence_5">
               <sap:WorkflowViewStateService.ViewState>
                 <scg:Dictionary x:TypeArguments="x:String, x:Object">
                   <x:Boolean x:Key="IsExpanded">True</x:Boolean>
                 </scg:Dictionary>
               </sap:WorkflowViewStateService.ViewState>
-              <ui:LogMessage DisplayName="Log Message" sap:VirtualizedContainerService.HintSize="388,144.66666666666666" sap2010:WorkflowViewState.IdRef="LogMessage_1" Level="Error" Message="[exception.Message]" />
+              <ui:LogMessage DisplayName="Log Message" sap:VirtualizedContainerService.HintSize="354,167.33333333333334" sap2010:WorkflowViewState.IdRef="LogMessage_1" Level="Error" Message="[exception.Message]" />
             </Sequence>
           </ActivityAction>
         </Catch>
